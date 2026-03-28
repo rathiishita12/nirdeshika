@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Assessment</title>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assessment.css">
+    <style>
+        .select2-container--default .select2-selection--multiple {
+          background-color: white;
+          color: black;
+          border: 1px solid #ccc;
+        }
+        .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+          color: black;
+        }
+        .select2-container--default .select2-results__option {
+          color: black;
+          background-color: white;
+        }
+        .select2-container--default .select2-results__option--highlighted[aria-selected] {
+          background-color: #4fc3f7;
+          color: black;
+        }
+        .select2-container--default .select2-selection--multiple .select2-selection__choice {
+          background-color: #4fc3f7;
+          color: black;
+        }
+        .select2-search__field {
+          color: black !important;
+        }
+      </style>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <nav>
+    <div class="nav__bar">
+      <div class="nav__logo">
+        <a href="http://127.0.0.1:5500/"><img src="http://127.0.0.1:5500/logo.png" alt="logo" style="height: 70px; width:250px;"></a>
+      </div>
+      <ul class="nav__links">
+        <li class="link"><a href="http://127.0.0.1:5500/">Home</a></li>
+        <li class="link"><a href="http://127.0.0.1:5500/about.html">About Us</a></li>
+
+        <!-- Services Dropdown -->
+        <li class="link dropdown">
+          <a href="#">Services ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="http://127.0.0.1:5050/">Take Assessment</a></li>
+            <li><a href="http://127.0.0.1:5500/courses.html">Courses</a></li>
+            <li><a href="http://127.0.0.1:5500/know-more.html">Know More</a></li>
+          </ul>
+        </li>
+
+        <li class="link"><a href="http://127.0.0.1:5500/index.html#contact">Contact</a></li>
+        <li class="link profile-link">
+          <a href="http://127.0.0.1:5500/profile.html" aria-label="Profile">
+            <i class="ri-user-line" style="font-size: 1.5rem; vertical-align: middle;"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="container">
+        <h1>Career Assessment</h1>
+        <p>Let’s understand your strengths, interests, and experience to recommend the best career path for you.</p>
+
+        <form onsubmit="handleSubmit(event)">
+            <div class="assessment-section">
+                <h4>Basic Information</h4>
+                <label>Full Name</label>
+                <input type="text" placeholder="Full Name" required>
+                <label>Age</label>
+                <input type="number" placeholder="Age" min="1" required>
+                <label>Gender</label>
+                <div>
+                    <input type="radio" name="gender" value="male"> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="other"> Other<br>
+                    <input type="radio" name="gender" value="not"> Prefer Not To Say
+                </div>
+                <label>Email</label>
+                <input type="email" placeholder="Email Id" required>
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Phone Number" required>
+            </div>
+            <div class="assessment-section">
+                <h4>Educational Background</h4>
+                <label>Highest Education Level</label>
+                <select name="education" id="education" required>
+                    <option value="">Select</option>
+                    <option value="High School">High School</option>
+                    <option value="Diploma">Diploma</option>
+                    <option value="Bachelor’s">Bachelor’s</option>
+                    <option value="Master’s">Master’s</option>
+                    <option value="Certification">Certification</option>
+                    <option value="PhD">PhD</option>
+                </select>
+                <label>Field Of Study</label>
+                <input type="text" placeholder="Field Of Study" required>
+                <label for="industry">Industry Of Interest</label>
+                <select name="industry" id="industry" required>
+                    <option value="">Select</option>
+                    <option value="Software Development">Software Development</option>
+                    <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    <option value="Investment">Investment</option>
+                    <option value="Mental Health">Mental Health</option>
+                    <option value="Publishing">Publishing</option>
+                    <option value="FinTech">FinTech</option>
+                    <option value="Schools">Schools</option>
+                    <option value="Defense">Defense</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Universities">Universities</option>
+                    <option value="Medical Devices">Medical Devices</option>
+                    <option value="Farming">Farming</option>
+                    <option value="AgriTech">AgriTech</option>
+                    <option value="Research">Research</option>
+                    <option value="Green Technology">Green Technology</option>
+                    <option value="Civil">Civil</option>
+                    <option value="Public Administration">Public Administration</option>
+                    <option value="Hospitals">Hospitals</option>
+                    <option value="Waste Management">Waste Management</option>
+                    <option value="Renewable Energy">Renewable Energy</option>
+                    <option value="Pharmaceuticals">Pharmaceuticals</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="Policy Making">Policy Making</option>
+                    <option value="Cybersecurity">Cybersecurity</option>
+                    <option value="Conservation">Conservation</option>
+                    <option value="Digital Media">Digital Media</option>
+                    <option value="Electrical">Electrical</option>
+                    <option value="E-learning">E-learning</option>
+                    <option value="Insurance">Insurance</option>
+                    <option value="Food Production">Food Production</option>
+                    <option value="Broadcasting">Broadcasting</option>
+                    <option value="Banking">Banking</option>
+                </select>
+            </div>
+            <div class="assessment-section">
+                <h4>Skills & Experience</h4>
+                <label for="skills">Choose Skills:</label>
+                <select id="skills" name="skills[]" multiple="multiple">
+                </select>
+                <label>Years of Experience</label>
+                <input type="number" placeholder="e.g. 2" min="0">
+                <label>Experience Level</label>
+                <select name="education" id="education" required>
+                    <option value="">Select</option>
+                    <option value="Entry Level">Entry Level</option>
+                    <option value="Mid Level">Mid Level</option>
+                    <option value="Senior Level">Senior Level</option>
+                    <option value="Director">Director</option>
+                </select>
+                <label>Sector Of Interest</label>
+                <select name="industry" id="industry" required>
+                    <option value="">Select</option>
+                    <option value="Information Technology">Information Technology</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Healthcare">Healthcare</option>
+                    <option value="Media">Media</option>
+                    <option value="Education">Education</option>
+                    <option value="Government">Government</option>
+                    <option value="Agriculture">Agriculture</option>
+                    <option value="Environment">Environment</option>
+                    <option value="Engineering">Engineering</option>
+                  </select>
+            </div>
+            <div class="assessment-section">
+                <h4>Preferences & Aspirations</h4>
+                <label>Preferred Work Location</label>
+                <select id="location" name="location" class="form-select">
+                    <option value="">Select</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Australia">Australia</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Remote">Remote</option>
+                    <option value="UK">UK</option>
+                    <option value="Germany">Germany</option>
+                  </select>
+                <label>Expected Salary Range (₹ in LPA)</label>
+                <div class="slidecontainer">
+                    <input type="range" min="2" max="30" value="10" step="1" class="slider" id="myRange">
+                    <p>Value: <span id="demo"></span></p>
+                  </div>
+                <label>Willing to Relocate?</label>
+                <input type="radio" name="willing" value="yes"> Yes<br>
+                <input type="radio" name="willing" value="no"> No<br>
+                <label>Demand Level Preference (optional)</label>
+                <select id="location" name="location" class="form-select">
+                    <option value="">Select</option>
+                    <option value="High">High</option>
+                    <option value="Moderate">Moderate</option>
+                    <option value="Low">Low</option>
+                </select>
+                <label>Career Goals / Aspirations</label>
+                <textarea rows="4" cols="50" placeholder="e.g., “I want to become a Data Scientist and work on real-world problems."></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn-submit">Get Career Recommendations</button>
+                <p class="text-muted mt-3">Your responses are secure and confidential.</p>
+            </div>
+
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Select2 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+  <script>
+    const skills = [' Report Writing', 'Environmental Impact Assessment', ' Injury Prevention', ' Materials Science', ' Healthcare Counseling', ' Public Policy', ' Crisis Management', ' SQL', ' Radar Operation', 'Deep Learning', 'Research', ' VR/AR Development', ' Brand Communication', ' Incident Response', ' Customer Service Excellence', ' Risk Assessment', ' Python Programming', ' Inventory Management', ' Vendor Coordination', ' Patient Positioning', ' Campaign Management', 'Animal Diagnosis', ' Internal Auditing', ' Policy Analysis', ' Signal Processing', 'Investment Strategies', ' Community Outreach', ' Food Microbiology', ' Prototyping', ' Cost Estimation', ' Policy Development', ' Revenue Management', ' Decentralized Applications', ' Audience Engagement', ' Clinical Nutrition', ' Route Optimization', 'Solar Energy Systems', ' Agile Scrum', ' Event Management', ' Customer Interaction', ' Drug Development', ' Market Analysis', ' Statistical Analysis', 'Corporate Law', ' Labor Law Compliance', ' Agile Methodologies', ' Legal Compliance', ' Building Codes Compliance', ' Carbon Footprint Analysis', 'Pharmacology', ' TensorFlow', ' Game Design', ' Data Analysis', ' Cultural Awareness', 'Team Management', ' Therapy Techniques', 'Travel Planning', ' Emergency Handling', 'Fire Risk Assessment', ' Community Engagement', ' Regulatory Compliance', ' Environmental Impact Study', 'SEO', ' Inventory Optimization', ' Sketching and Illustration', ' AI Integration', ' Environmental Impact Assessment', 'Curriculum Planning', 'Economic Forecasting', ' Defect Analysis', ' Sustainability Planning', ' Supplier Relationship Management', 'Soil Analysis', 'Safety Demonstrations', ' Data Engineering', ' AI Algorithms', ' Model Deployment', ' Radiation Safety', 'Media Relations', 'Property Listings', ' C#', ' Legal Documentation', ' Security Auditing', ' Psychosocial Assessments', ' Adobe XD', ' Deep Learning', ' Sustainability Assessment', ' Thermodynamics', ' Industrial Control Systems', 'Project Planning', ' Communication Strategy', ' Social Media Management', ' Assessment and Evaluation', ' Manufacturing Automation', 'Policy Development', ' Medical Regulations Compliance', ' Contract Negotiation', ' Environmental Sampling', ' Learning Management Systems', ' Model Evaluation', ' Passenger Assistance', ' Version Control (Git)', ' Pattern Making', ' Automation Programming', ' Negotiation', ' Brake Systems', 'Molecular Biology', ' Clinical Trials', ' Statistical Software', ' Space Technology', ' Failure Analysis', ' Presentation Skills', ' Propulsion Systems', ' ERP Systems', ' Sustainable Development', ' Pest Control Methods', ' Educational Technology', ' Game Engines', 'Vehicle Diagnostics', 'Logistics Management', ' Robotic Process Optimization', 'Psychological Assessment', ' Group Counseling', ' Market Research', 'Genetics', 'Quality Control', ' Video Editing', ' Project Management', ' Production Inspection', ' Concrete Technology', ' Tax Optimization', ' Training & Education', 'Process Improvement', ' Stakeholder Engagement', 'Mineral Exploration', ' Team Leadership', ' Training Program Development', ' Incident Investigation', ' Social Media Strategy', ' Surgical Procedures', 'Satellite Communications', ' Cataloging and Classification', ' Nutrition Analysis', ' Material Science', ' Process Modeling', 'Event Planning', ' Stakeholder Communication', ' Housekeeping Operations', ' Coaching', ' Documentation', ' HRIS Systems', ' Negotiation Skills', ' Content Marketing', ' Food & Beverage Service', ' Budget Forecasting', 'Supervised Learning', ' Risk Management', ' Mental Health Treatment Planning', ' Energy Storage Solutions', ' Diagnostic Interpretation', ' Staff Supervision', ' Cloud Computing', 'Aquatic Ecosystem Research', ' Nutritional Assessment', 'Robotic Systems Design', ' Shipment Tracking', ' AutoCAD', ' Wireframing', ' Renewable Energy Trends', ' Adult Learning Principles', ' Investment Analysis', ' Bioinformatics', 'Structural Analysis', ' Natural Language Processing', ' Classroom Management', ' Crisis Intervention', ' Mental Health Education', 'Clinical Trials Monitoring', ' Veterinary Pharmacology', ' Mission Planning', 'Guest Services Management', ' Threat Analysis', 'Zoning Laws', ' Excel', 'Site Supervision', 'Talent Acquisition', ' Pedagogical Strategies', ' Animal Welfare Knowledge', 'Healthcare Analytics', ' Vendor Negotiation', ' Seismic Analysis', ' Retirement Planning', ' Interaction Design', ' Lighting Design', ' Compliance Testing', ' Cryptography', 'Supply Chain Management', ' Lab Experimentation', ' SEO Optimization', ' CAD', ' Contract Drafting', 'Smart Contracts', ' Fabric Selection', 'Green Technology', 'X-Ray Imaging', ' Fire Drill Management', ' Web Development', ' Environmental Policy', 'PLC Programming', ' Medical Ethics', ' Client Relations', ' Data Collection', ' Motivational Techniques', ' Research Methodology', 'Pollution Control', ' Unsupervised Learning', ' Digital Library Systems', ' Google Analytics', ' Vendor Management', ' GIS Mapping', 'Information Retrieval', ' User Assistance', 'User Research', ' Fire Safety Regulations', 'Counseling Techniques', ' Litigation', ' Conservation Planning', 'Training Program Development', ' Grid Integration', ' Storytelling', ' Client Communication', ' Family Support', ' Structural Analysis', 'Quality Assurance', ' Budget Management', 'Product Knowledge', 'CAD Designing', ' Patient Safety Monitoring', ' Construction Scheduling', ' Emergency Procedures', ' Aviation Regulations', ' On-Site Coordination', 'Network Security', 'Script Writing', 'Contract Law', ' Sports Nutrition', ' Impact Assessments', ' Resource Allocation', ' Lesson Delivery', ' Big Data Processing', ' Data Interpretation', 'Case Management', ' Machine Learning', ' Requirement Gathering', ' Archival Management', ' Engine Repair', ' Equipment Handling', ' Wind Energy Systems', ' Sales Techniques', ' RF Engineering', ' Inspection Techniques', ' Customer Relationship Management (CRM)', 'Flight Monitoring', ' Genetic Engineering', ' Medical Terminology', ' Data Warehousing', 'Aerodynamics', ' PPC Campaigns', ' Performance Analysis', ' Field Surveying', ' Employee Relations', ' Material Selection', 'Financial Modeling', 'Climate Modeling', ' Communication Systems', ' Compensation and Benefits', ' Economic Impact Analysis', ' Cognitive Behavioral Therapy (CBT)', ' Emergency Planning', 'Java', ' Legal Research', ' Social Media Marketing', 'Curriculum Development', ' Ethereum', 'Space Planning', ' Client Advocacy', ' Renewable Energy', ' Crop Management', ' Sensor Technologies', ' Site Surveying', 'Diet Planning', 'Media Communication', ' Client Consultation', ' Economic Modeling', 'Food Regulations', ' Good Clinical Practice (GCP)', ' Garment Construction', ' Diving for Specimen Collection', ' Marketing and Promotion', ' Performance Improvement', ' Content Creation', ' Carbon Emission Analysis', ' Customer Service', 'Machine Learning', ' KPI Monitoring', ' Public Health Education', ' Fertilizer Optimization', ' Wealth Management', 'Business Intelligence', ' Behavioral Assessment', 'Unity', ' Hazard Analysis', 'Energy Regulations', ' Data Visualization', 'Trend Analysis', ' Safety Protocols', ' Sustainability Reporting', ' Event Planning', ' Electrical Systems', ' Solidity Programming', ' E-Learning', ' Client Presentation', ' Python']; 
+
+    $(document).ready(function () {
+      skills.forEach(skill => {
+        $('#skills').append(new Option(skill, skill));
+      });
+
+      $('#skills').select2({
+        placeholder: "Search and select up to 10 skills",
+        maximumSelectionLength: 10,
+        width: '100%'
+      });
+    });
+
+    var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+
+    function handleSubmit(event) {
+      event.preventDefault();
+
+      const name = document.querySelector('input[placeholder="Full Name"]').value;
+      const age = document.querySelector('input[placeholder="Age"]').value;
+      const gender = document.querySelector('input[name="gender"]:checked')?.value || "";
+      const email = document.querySelector('input[placeholder="Email Id"]').value;
+      const phone = document.querySelector('input[placeholder="Phone Number"]').value;
+      const education = document.getElementById("education").value;
+      const fieldOfStudy = document.querySelector('input[placeholder="Field Of Study"]').value;
+      const industry = document.getElementById("industry").value;
+      const jobTitle = document.querySelector('input[placeholder="Job Title"]').value;
+      const experience = document.querySelector('input[placeholder="e.g. 2"]').value;
+      const skills = $('#skills').val(); // Using Select2
+      const learningMode = document.querySelector('select').value;
+      const learningHours = document.querySelector('input[placeholder="e.g. 5"]').value;
+
+      const data = {
+        name,
+        age,
+        gender,
+        email,
+        phone,
+        education,
+        fieldOfStudy,
+        industry,
+        jobTitle,
+        experience,
+        skills,
+        learningMode,
+        learningHours
+      };
+
+      console.log("Form Data:", data);
+      alert("Assessment submitted! Check console for data.");
+    }
+
+    document.querySelector(".nav__toggle").addEventListener("click", function() {
+  document.querySelector(".nav__links").classList.toggle("active");
+});
+
+
+  </script>
+</body>
+</html>

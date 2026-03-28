@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Path Assessment Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .btn-submit {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #4fc3f7;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .btn-submit:hover {
+      background-color: #0288d1;
+      color: white;
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Career Path Assessment Form</h2>
+    <form id="careerForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" required min="10" max="100" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" required pattern="[0-9]{10}" />
+
+      <label for="gender">Gender:</label>
+      <select id="gender" required>
+        <option value="">Select</option>
+        <option>Female</option>
+        <option>Male</option>
+        <option>Other</option>
+        <option>Prefer not to say</option>
+      </select>
+
+      <label for="education">Highest Education:</label>
+      <select id="education" required>
+        <option value="">Select</option>
+        <option>High School</option>
+        <option>Bachelor's Degree</option>
+        <option>Master's Degree</option>
+        <option>PhD</option>
+        <option>Diploma/Certificate</option>
+      </select>
+
+      <label for="skills">Skills:</label>
+      <select id="skills" multiple="multiple" required></select>
+
+      <label for="years">Years of Experience:</label>
+      <input type="number" id="years" required min="0" max="50" />
+
+      <label for="level">Experience Level:</label>
+      <select id="level" required>
+        <option value="">Select</option>
+        <option>Entry Level</option>
+        <option>Mid Level</option>
+        <option>Senior Level</option>
+        <option>Director</option>
+      </select>
+
+      <label for="goals">Career Goals / Aspirations:</label>
+      <textarea id="goals" rows="4" required></textarea>
+
+      <button type="submit" class="btn-submit">Submit</button>
+    </form>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script>
+    const skillsList = ['Python', 'Java', 'C++', 'JavaScript', 'Machine Learning', 'Data Analysis', 'Cloud Computing', 'UI/UX Design', 'SQL', 'Project Management'];
+
+    $(document).ready(function () {
+      $('#skills').select2({
+        data: skillsList.map(skill => ({ id: skill, text: skill })),
+        placeholder: 'Select skills',
+        multiple: true
+      });
+    });
+
+    document.getElementById('careerForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const formData = {
+        name: document.getElementById('name').value,
+        age: document.getElementById('age').value,
+        email: document.getElementById('email').value,
+        phone: document.getElementById('phone').value,
+        gender: document.getElementById('gender').value,
+        education: document.getElementById('education').value,
+        skills: $('#skills').val(),
+        years_experience: document.getElementById('years').value,
+        experience_level: document.getElementById('level').value,
+        career_goals: document.getElementById('goals').value,
+      };
+
+      // Send to backend ML model (update URL)
+      fetch('http://127.0.0.1:5050/predict', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      })
+        .then(res => res.json())
+        .then(data => {
+          alert("Recommended Career Path: " + data.careers.join(', ')); // Show recommended careers
+        })
+        .catch(err => {
+          console.error(err);
+          alert("Something went wrong. Try again later.");
+        });
+    });
+  </script>
+</body>
+
+</html>

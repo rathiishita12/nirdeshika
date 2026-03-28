@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mission Vision Values Flip Cards</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    body {
+      background: #fff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .flip-section img{
+      width: 72px;
+      height: 72px;
+      margin-bottom: 16px;
+    }
+    .flip-section {
+      display: flex;
+      gap: 40px;
+    }
+    .flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 370px;
+      perspective: 1000px;
+      cursor: pointer;
+    }
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+    }
+    /* Flip on active class from click */
+    .flip-card.active .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    /* Flip on hover */
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    /* Prevent hover flipping when clicking to activate other cards */
+    .flip-card.active:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 20px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.13);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .flip-card-front {
+      background: #fff;
+    }
+    .flip-card-back {
+      background: #FAFAFA;
+      transform: rotateY(180deg);
+      font-size: 16px;
+      color: #333;
+    }
+    .icon {
+      font-size: 72px;
+      margin-bottom: 16px;
+    }
+    .mission .icon { color: #f05a28; }
+    .vision .icon { color: #f05a28; }
+    .values .icon { color: #f05a28; }
+    .mission .accent { color: #89c541; }
+    .vision .accent { color: #89c541; }
+    .values .accent { color: #89c541; }
+    .card-title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <nav>
+    <div class="nav__bar">
+      <div class="nav__logo">
+        <a href="http://127.0.0.1:5500/"><img src="http://127.0.0.1:5500/logo.png" alt="logo" style="height: 70px; width:250px;"></a>
+      </div>
+      <ul class="nav__links">
+        <li class="link"><a href="http://127.0.0.1:5500/">Home</a></li>
+        <li class="link"><a href="http://127.0.0.1:5500/about.html">About Us</a></li>
+
+        <!-- Services Dropdown -->
+        <li class="link dropdown">
+          <a href="#">Services ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="http://127.0.0.1:5050/">Take Assessment</a></li>
+            <li><a href="http://127.0.0.1:5500/courses.html">Courses</a></li>
+            <li><a href="http://127.0.0.1:5500/know-more.html">Know More</a></li>
+          </ul>
+        </li>
+
+        <li class="link"><a href="http://127.0.0.1:5500/index.html#contact">Contact</a></li>
+        <li class="link profile-link">
+          <a href="http://127.0.0.1:5500/profile.html" aria-label="Profile">
+            <i class="ri-user-line" style="font-size: 1.5rem; vertical-align: middle;"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="flip-section">
+    <!-- Mission Card -->
+    <div class="flip-card mission" onclick="flipCard(this)">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="assets/target.svg" alt="Mission">
+          <div class="card-title">MISSION</div>
+        </div>
+        <div class="flip-card-back">
+          <div>
+            <h2>Our Mission</h2>
+            <p>
+              Empower individuals with personalized, data-driven career guidance using advanced assessments and machine learning, ensuring accessible, tailored support that adapts to their evolving goals and industry trends.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Vision Card -->
+    <div class="flip-card vision" onclick="flipCard(this)">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="assets/shared-vision.svg" alt="Vision">
+          <div class="card-title">VISION</div>
+        </div>
+        <div class="flip-card-back">
+          <div>
+            <h2>Our Vision</h2>
+            <p>
+              Create a global platform offering personalized mentorship, real-time industry insights, and a community-driven ecosystem to inspire continuous growth and holistic career development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Values Card -->
+    <div class="flip-card values" onclick="flipCard(this)">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="assets/values.svg" alt="Values">
+          <div class="card-title">VALUES</div>
+        </div>
+        <div class="flip-card-back">
+          <div>
+            <h2>Our Values</h2>
+            <p>Empowerment, innovation, accessibility, integrity, collaboration, and adaptability guide us in providing transparent, inclusive, and flexible career support to foster lifelong learning and shared success.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  function flipCard(selectedCard) {
+    const cards = document.querySelectorAll('.flip-card');
+    cards.forEach(card => {
+      if (card === selectedCard) {
+        // Toggle the clicked card active class
+        card.classList.toggle('active');
+      } else {
+        // Ensure others are closed
+        card.classList.remove('active');
+      }
+    });
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Recommendation Result - Nirdeshika</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+</head>
+
+<body>
+
+  <div class="background-pattern"></div>
+
+  <div class="result-container">
+    <div class="result-card">
+      <div class="icon-header">
+        <i class="ri-award-fill"></i>
+      </div>
+
+      <h2>Your Perfect Career Match</h2>
+      <p class="subtitle">Based on your assessment, here is our top recommendation for your future:</p>
+
+      <div class="career-main">
+        <h3>{{ main }}</h3>
+        <span class="material-symbols-outlined star-icon">stars</span>
+      </div>
+
+      <div class="alternatives-section">
+        <p>Other strong matches to consider:</p>
+        <ul class="alternatives-list">
+          {% if alt1 %}
+          <li><i class="ri-checkbox-circle-line"></i> {{ alt1 }}</li>
+          {% endif %}
+          {% if alt2 %}
+          <li><i class="ri-checkbox-circle-line"></i> {{ alt2 }}</li>
+          {% endif %}
+          {% if alt3 %}
+          <li><i class="ri-checkbox-circle-line"></i> {{ alt3 }}</li>
+          {% endif %}
+        </ul>
+      </div>
+
+      {% if job_categories %}
+      <div class="jobs-section">
+        <p class="jobs-title"><i class="ri-briefcase-4-fill"></i> Live Job Opportunities by Role</p>
+
+        {% for category, category_jobs in job_categories.items() %}
+        {% if category_jobs and category_jobs|length > 0 %}
+        <div class="category-group">
+          <h4 class="category-header">{{ category }}</h4>
+          <div class="jobs-list">
+            {% for job in category_jobs %}
+            <div class="job-card">
+              <div class="job-info">
+                <h4 class="job-role">{{ job.title }}</h4>
+                <p class="job-company"><i class="ri-building-4-line"></i> {{ job.company }}</p>
+                <p class="job-location"><i class="ri-map-pin-line"></i> {{ job.location }} {% if job.remote %}<span
+                    class="badge-remote">Remote</span>{% endif %}</p>
+              </div>
+              <a href="{{ job.url }}" target="_blank" class="btn-apply">View & Apply</a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+      </div>
+      {% endif %}
+
+      <div class="action-buttons">
+        <a href="/" class="btn btn-outline"><i class="ri-refresh-line"></i> Retake Assessment</a>
+        <a href="http://127.0.0.1:5500" class="btn btn-primary">Back to Dashboard <i
+            class="ri-arrow-right-line"></i></a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
