@@ -1,0 +1,33 @@
+/* Know More — scoped; nav comes from styles.css */
+
+.page-know-more {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #7895ae;
+  color: #f0f0f0;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.page-know-more .header-section {
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.page-know-more #navigation {
+  font-size: 15px;
+}
+
+.page-know-more #navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Spacing for Bootstrap cards in this page only */
+.page-know-more .card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

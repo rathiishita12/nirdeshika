@@ -57,11 +57,14 @@
 from flask import Flask, render_template, request, jsonify
 import pandas as pd
 import requests
+import os
 from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MultiLabelBinarizer
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # --- Load and Train Model ---
 df = pd.read_excel("Career_Dataset.xlsx")
@@ -191,4 +194,6 @@ def result():
 
 # --- Main ---
 if __name__ == '__main__':
-    app.run(port=5050, debug=True)
+    port = int(os.environ.get('PORT', 5050))
+    debug_mode = os.environ.get('FLASK_ENV') == 'development'
+    app.run(host='0.0.0.0', port=port, debug=debug_mode)

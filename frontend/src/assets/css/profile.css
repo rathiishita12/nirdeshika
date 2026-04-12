@@ -1,0 +1,115 @@
+/* Profile dashboard — scoped under .page-profile */
+
+.page-profile {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #7895ae;
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page-profile .profile-wrap {
+  flex: 1;
+  width: 100%;
+  max-width: 960px;
+  margin: 100px auto 40px;
+  padding: 0 16px;
+}
+
+.page-profile .profile-container {
+  width: 100%;
+  background: #68859d;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.page-profile .profile-header {
+  padding: 28px 32px;
+  background: #68859d;
+  border-bottom: 1px solid #eee;
+  box-shadow: none;
+}
+
+.page-profile .profile-header h2 {
+  margin: 0 0 8px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.page-profile .profile-header p {
+  margin: 0;
+  color: #ddd;
+}
+
+.page-profile .profile-main {
+  padding: 28px 32px 36px;
+}
+
+.page-profile .stats-section h3,
+.page-profile .actions-section h3 {
+  margin: 0 0 16px;
+  font-size: 1.15rem;
+  color: #ddd;
+}
+
+.page-profile .stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.page-profile .stat-box {
+  text-align: center;
+  padding: 16px;
+  background: #68859d;
+  border-radius: 12px;
+  border: 1px solid #eee;
+}
+
+.page-profile .stat-box h4 {
+  font-size: 1.75rem;
+  color: #a2e5f5;
+  margin: 0 0 6px;
+}
+
+.page-profile .stat-box p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.page-profile .actions-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.page-profile .action-btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(to bottom right, #e2ef6b, #00e3ff);
+  color: #fff;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.page-profile .action-btn:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+}
+
+.page-profile #logoutBtn {
+  background: #ff4757;
+}
+
+.page-profile #logoutBtn:hover {
+  background: #ff6b81;
+}

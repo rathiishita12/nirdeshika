@@ -1,0 +1,1971 @@
+{
+    "Fire Safety Officer": {
+        "id": "Fire Safety Officer",
+        "title": "Fire Safety Officer",
+        "description": "A Fire Safety Officer is responsible for ensuring fire safety protocols are followed within buildings and workplaces. They conduct inspections, develop fire safety plans, provide training, and ensure compliance with fire codes and regulations.",
+        "skills": [
+            "Thorough understanding of fire codes and safety regulations",
+            "Strong analytical and risk assessment abilities",
+            "Excellent communication and leadership skills",
+            "Emergency response planning and execution",
+            "Attention to detail and problem-solving skills",
+            "Ability to train and educate staff"
+        ],
+        "education": "A diploma or degree in Fire Safety, Engineering, or Occupational Health & Safety is typically required. Certifications from fire safety institutions or firefighting training centers are highly valued.",
+        "duties": [
+            "Conducting fire risk assessments and inspections",
+            "Creating and implementing fire safety protocols",
+            "Training staff on fire prevention and evacuation procedures",
+            "Ensuring compliance with safety codes and standards",
+            "Investigating fire incidents and preparing reports",
+            "Liaising with fire departments and emergency services"
+        ],
+        "salary": "\u20b93,50,000 to \u20b98,00,000 per year (India, depending on experience and sector).",
+        "organizations": []
+    },
+    "Cybersecurity Analyst": {
+        "id": "Cybersecurity Analyst",
+        "title": "Cybersecurity Analyst",
+        "description": "A Cybersecurity Analyst is responsible for protecting an organization's computer systems and networks from cyber threats. They monitor networks, analyze threats, respond to security breaches, and implement security measures to safeguard sensitive data.",
+        "skills": [
+            "Knowledge of firewalls, VPNs, and IDS/IPS systems",
+            "Proficiency in security information and event management (SIEM) tools",
+            "Understanding of threat modeling and risk assessment",
+            "Familiarity with various operating systems and networking protocols",
+            "Problem-solving and analytical thinking",
+            "Strong communication and documentation skills"
+        ],
+        "education": "A bachelor\u2019s degree in Cybersecurity, Computer Science, or Information Technology is typically required. Certifications like CEH, CompTIA Security+, or CISSP can enhance job prospects.",
+        "duties": [
+            "Monitoring security access and conducting internal and external security audits",
+            "Analyzing security breaches and addressing vulnerabilities",
+            "Installing and configuring security software",
+            "Conducting risk assessments and developing response strategies",
+            "Staying updated on the latest cybersecurity trends and threats",
+            "Training staff on security protocols and best practices"
+        ],
+        "salary": "\u20b96,00,000 to \u20b915,00,000 per year (India, varies with experience and organization).",
+        "organizations": [
+            "Tata Consultancy Services (TCS)",
+            "Infosys",
+            "Wipro",
+            "HCL Technologies",
+            "IBM",
+            "Government cybersecurity agencies and financial institutions"
+        ]
+    },
+    "Fashion Designer": {
+        "id": "Fashion Designer",
+        "title": "Fashion Designer",
+        "description": "A Fashion Designer creates original clothing, accessories, and footwear by sketching designs, selecting fabrics and patterns, and overseeing the production of their designs. They keep up with trends and market demands to produce stylish and innovative products.",
+        "skills": [
+            "Creativity and artistic ability",
+            "Strong sense of color, texture, and style",
+            "Knowledge of fashion trends and market demands",
+            "Sketching and CAD software proficiency",
+            "Attention to detail and sewing skills",
+            "Communication and presentation skills"
+        ],
+        "education": "A bachelor's degree in Fashion Design, Textile Design, or a related field is typically required. Courses in drawing, color theory, pattern making, and computer-aided design (CAD) are beneficial.",
+        "duties": [
+            "Researching fashion trends and forecasting designs",
+            "Creating sketches and selecting materials",
+            "Developing prototypes and overseeing production",
+            "Attending fashion shows and events",
+            "Collaborating with marketing and sales teams",
+            "Adjusting designs based on feedback and trends"
+        ],
+        "salary": "\u20b93,00,000 to \u20b910,00,000 per year (India, varies based on brand and experience).",
+        "organizations": []
+    },
+    "Food Safety Inspector": {
+        "id": "Food Safety Inspector",
+        "title": "Food Safety Inspector",
+        "description": "A Food Safety Inspector ensures that food products meet safety and quality standards. They inspect food processing plants, restaurants, and other facilities to enforce hygiene regulations and prevent foodborne illnesses.",
+        "skills": [
+            "Thorough understanding of food safety laws and regulations",
+            "Attention to detail and observational skills",
+            "Strong analytical and documentation skills",
+            "Knowledge of laboratory testing and food sampling",
+            "Communication and interpersonal skills",
+            "Ability to handle field inspections and write detailed reports"
+        ],
+        "education": "A bachelor's degree in Food Science, Microbiology, Public Health, or a related field is required. Additional certifications in food safety standards like HACCP or FSSAI licensing can be beneficial.",
+        "duties": [
+            "Inspecting food production facilities for compliance",
+            "Collecting samples for lab analysis",
+            "Enforcing hygiene practices and sanitation protocols",
+            "Identifying violations and issuing corrective actions",
+            "Training staff on food safety practices",
+            "Preparing inspection reports and documentation"
+        ],
+        "salary": "\u20b93,00,000 to \u20b97,00,000 per year (India, depending on experience and employer).",
+        "organizations": [
+            "Food Safety and Standards Authority of India (FSSAI)",
+            "State Food and Drug Administrations",
+            "Quality assurance departments in food companies",
+            "Public health organizations",
+            "Food inspection agencies and consultancy firms"
+        ]
+    },
+    "Geologist": {
+        "id": "Geologist",
+        "title": "Geologist",
+        "description": "A Geologist studies the Earth\u2019s structure, materials, and processes to understand its history and predict future geological events. They play a crucial role in natural resource exploration, environmental protection, and hazard assessment.",
+        "skills": [
+            "Strong analytical and research skills",
+            "Knowledge of geological mapping and sampling techniques",
+            "Ability to use GIS and geological software",
+            "Fieldwork and data interpretation abilities",
+            "Report writing and communication skills",
+            "Critical thinking and problem-solving skills"
+        ],
+        "education": "A bachelor's degree in Geology, Earth Sciences, or a related field is required. Advanced roles may require a master\u2019s or Ph.D., especially in research or academic settings.",
+        "duties": [
+            "Conducting field studies and collecting samples",
+            "Analyzing soil, rock, and water data",
+            "Creating geological maps and reports",
+            "Assessing natural resources and environmental risks",
+            "Collaborating with engineers, scientists, and policymakers",
+            "Monitoring geological hazards like earthquakes and landslides"
+        ],
+        "salary": "\u20b94,00,000 to \u20b912,00,000 per year (India, varies with experience and industry).",
+        "organizations": [
+            "Geological Survey of India",
+            "Oil and Natural Gas Corporation (ONGC)",
+            "National Mineral Development Corporation (NMDC)",
+            "Mining and energy companies",
+            "Environmental consulting firms",
+            "Research and academic institutions"
+        ]
+    },
+    "healthcare-data-analyst": {
+        "id": "healthcare-data-analyst",
+        "title": "Healthcare Data Analyst",
+        "description": "A Healthcare Data Analyst interprets medical data to help healthcare organizations make informed decisions. They work with electronic health records (EHR), patient satisfaction surveys, and operational data to improve quality of care and reduce costs.",
+        "skills": [
+            "Proficiency in SQL, Python, or R",
+            "Knowledge of data visualization tools (e.g., Tableau, Power BI)",
+            "Understanding of healthcare systems and medical terminology",
+            "Statistical analysis and predictive modeling",
+            "Strong communication and presentation skills",
+            "Attention to detail and problem-solving abilities"
+        ],
+        "education": "A bachelor\u2019s degree in Health Informatics, Statistics, Public Health, or a related field is required. A master\u2019s degree or certification in healthcare analytics is advantageous.",
+        "duties": [
+            "Analyzing healthcare data to improve operations and outcomes",
+            "Creating dashboards and reports for stakeholders",
+            "Ensuring data accuracy and integrity",
+            "Collaborating with healthcare providers and administrators",
+            "Monitoring trends in patient care and resource use",
+            "Maintaining compliance with healthcare regulations"
+        ],
+        "salary": "\u20b94,00,000 to \u20b910,00,000 per year (India, based on experience and organization).",
+        "organizations": [
+            "Fortis Healthcare",
+            "Apollo Hospitals",
+            "Dr. Lal PathLabs",
+            "Medanta",
+            "Narayana Health",
+            "Health-tech startups and analytics firms"
+        ]
+    },
+    "economic-researcher": {
+        "id": "economic-researcher",
+        "title": "Economic Researcher",
+        "description": "An Economic Researcher analyzes economic data to understand trends, inform policy decisions, and provide insights\n          for businesses, governments, and academic institutions. They use models and statistics to interpret complex economic\n          phenomena.",
+        "skills": [
+            "Strong analytical and quantitative skills",
+            "Proficiency in statistical tools and software (e.g., R, Stata, Python)",
+            "Economic modeling and forecasting",
+            "Research writing and data interpretation",
+            "Attention to detail and logical reasoning",
+            "Communication of technical findings to non-technical audiences"
+        ],
+        "education": "A bachelor's degree in Economics or related field is required. A master\u2019s or PhD is often necessary for advanced roles,\n          especially in academia or policy institutions.",
+        "duties": [
+            "Conducting in-depth economic research and analysis",
+            "Creating economic models and forecasts",
+            "Analyzing policy impacts and market trends",
+            "Publishing findings in reports and academic journals",
+            "Providing recommendations to policymakers and stakeholders",
+            "Presenting data-driven insights"
+        ],
+        "salary": "\u20b95,00,000 to \u20b912,00,000 per year (India, based on experience and sector).",
+        "organizations": []
+    },
+    "real-estate-agent": {
+        "id": "real-estate-agent",
+        "title": "Real Estate Agent",
+        "description": "A Real Estate Agent helps clients buy, sell, and rent properties. They act as intermediaries between buyers and sellers, guiding clients through the entire process and negotiating deals to achieve favorable outcomes.",
+        "skills": [
+            "Strong negotiation and sales skills",
+            "Knowledge of real estate laws and local market trends",
+            "Excellent communication and interpersonal skills",
+            "Marketing and property listing skills",
+            "Time management and organizational abilities",
+            "Customer service orientation"
+        ],
+        "education": "A high school diploma is the minimum requirement. However, a bachelor's degree in Business, Real Estate, or a related field is beneficial. Licensing through a recognized authority is mandatory in most regions.",
+        "duties": [
+            "Assisting clients in buying, selling, or renting properties",
+            "Conducting property viewings and open houses",
+            "Preparing and reviewing documents such as contracts",
+            "Providing market analysis and property evaluations",
+            "Negotiating offers between buyers and sellers",
+            "Staying updated with real estate laws and trends"
+        ],
+        "salary": "\u20b93,00,000 to \u20b912,00,000 per year (India, varies with commission and region).",
+        "organizations": []
+    },
+    "manufacturing-quality-control-inspector": {
+        "id": "manufacturing-quality-control-inspector",
+        "title": "Manufacturing Quality Control Inspector",
+        "description": "A Manufacturing Quality Control Inspector is responsible for ensuring that products meet established quality standards. They inspect materials and finished goods for defects, record data, and work with production teams to maintain consistent product quality.",
+        "skills": [
+            "Attention to detail and precision",
+            "Knowledge of manufacturing processes and quality standards",
+            "Ability to read technical drawings and blueprints",
+            "Familiarity with measurement tools and inspection techniques",
+            "Basic computer skills for documentation and reporting",
+            "Strong communication and teamwork abilities"
+        ],
+        "education": "A diploma or degree in Mechanical Engineering, Manufacturing, or a related technical field is preferred. Certifications in quality control or inspection can enhance job prospects.",
+        "duties": [
+            "Inspecting raw materials and finished products for quality and compliance",
+            "Recording inspection results and generating reports",
+            "Identifying and reporting quality issues to relevant departments",
+            "Collaborating with production staff to resolve defects",
+            "Maintaining inspection equipment and documentation",
+            "Adhering to safety and quality regulations"
+        ],
+        "salary": "\u20b92,50,000 to \u20b96,00,000 per year (India, based on industry and experience).",
+        "organizations": [
+            "Larsen & Toubro",
+            "Bharat Forge",
+            "Mahindra & Mahindra",
+            "Tata Motors",
+            "Maruti Suzuki",
+            "Manufacturing plants and quality consulting firms"
+        ]
+    },
+    "Machine Learning Engineer": {
+        "id": "Machine Learning Engineer",
+        "title": "Machine Learning Engineer",
+        "description": "A Machine Learning Engineer develops algorithms and models that enable machines to perform tasks without being explicitly programmed. They work on large datasets, build predictive models, and deploy scalable machine learning solutions across various applications.",
+        "skills": [
+            "Strong knowledge of programming languages (Python, R, Java)",
+            "Proficiency in machine learning frameworks (TensorFlow, PyTorch, Scikit-learn)",
+            "Understanding of algorithms and data structures",
+            "Experience with data preprocessing and feature engineering",
+            "Familiarity with cloud platforms (AWS, Azure, GCP)",
+            "Analytical and problem-solving skills"
+        ],
+        "education": "A bachelor\u2019s or master\u2019s degree in Computer Science, Data Science, or a related field is typically required. Certifications or advanced degrees in Artificial Intelligence or Machine Learning are advantageous.",
+        "duties": [
+            "Designing and developing machine learning models",
+            "Training and evaluating algorithms",
+            "Implementing ML models in production environments",
+            "Collaborating with data scientists and software engineers",
+            "Improving model performance through tuning and optimization",
+            "Documenting processes and presenting findings to stakeholders"
+        ],
+        "salary": "\u20b910,00,000 to \u20b925,00,000 per year (India, varies with experience and industry).",
+        "organizations": [
+            "Google",
+            "Amazon",
+            "Microsoft",
+            "Infosys",
+            "Wipro",
+            "AI startups and research labs"
+        ]
+    },
+    "Human Resources Manager": {
+        "id": "Human Resources Manager",
+        "title": "Human Resources Manager",
+        "description": "A Human Resources Manager is responsible for overseeing an organization's HR department. They manage recruitment, employee relations, performance management, compliance with labor laws, and ensure a productive workplace environment.",
+        "skills": [
+            "Strong understanding of labor laws and HR best practices",
+            "Excellent communication and interpersonal skills",
+            "Conflict resolution and negotiation skills",
+            "Ability to handle sensitive information with discretion",
+            "Leadership and team management abilities",
+            "Proficiency in HR software and performance management tools"
+        ],
+        "education": "A bachelor's degree in Human Resources, Business Administration, or a related field is typically required. A master's degree in HR or an MBA is a plus. Certification from a recognized HR organization (e.g., SHRM or HRCI) is often beneficial.",
+        "duties": [
+            "Overseeing recruitment and staffing processes",
+            "Developing and implementing HR policies and programs",
+            "Managing employee relations and resolving conflicts",
+            "Ensuring compliance with labor laws and regulations",
+            "Conducting performance evaluations and employee development programs",
+            "Managing compensation and benefits programs"
+        ],
+        "salary": "\u20b96,00,000 to \u20b918,00,000 per year (India, depending on experience and company size).",
+        "organizations": []
+    },
+    "robotics-engineer": {
+        "id": "robotics-engineer",
+        "title": "Robotics Engineer",
+        "description": "A Robotics Engineer designs, develops, and maintains robotic systems used in industries such as manufacturing, healthcare, defense, and space exploration. They integrate mechanics, electronics, and computer science to create autonomous and semi-autonomous machines.",
+        "skills": [
+            "Strong programming and software development skills (C/C++, Python, ROS)",
+            "Knowledge of mechanics, electronics, and control systems",
+            "Problem-solving and critical thinking",
+            "3D modeling and CAD software proficiency",
+            "Understanding of AI and machine learning algorithms",
+            "Team collaboration and communication"
+        ],
+        "education": "A bachelor's degree in Robotics Engineering, Mechanical Engineering, Electrical Engineering, or a related field is required. A master\u2019s or Ph.D. is often preferred for advanced roles.",
+        "duties": [
+            "Designing and prototyping robotic systems",
+            "Developing and testing software for automation",
+            "Collaborating with cross-functional teams",
+            "Conducting simulations and performance analysis",
+            "Ensuring safety and efficiency in robotic operations",
+            "Documenting technical specifications and improvements"
+        ],
+        "salary": "\u20b95,00,000 to \u20b915,00,000 per year (India, varies by industry and expertise).",
+        "organizations": [
+            "ISRO",
+            "ABB India",
+            "Boston Dynamics (via international collaboration)",
+            "Tata Elxsi",
+            "GreyOrange",
+            "DRDO"
+        ]
+    },
+    "ai-engineer": {
+        "id": "ai-engineer",
+        "title": "AI Engineer",
+        "description": "An AI Engineer develops intelligent algorithms and models to enable machines to perform tasks that typically require human intelligence. This includes areas like natural language processing, computer vision, and predictive analytics.",
+        "skills": [
+            "Strong programming skills (Python, R, Java)",
+            "Expertise in machine learning and deep learning frameworks (TensorFlow, PyTorch)",
+            "Knowledge of data science and data structures",
+            "Understanding of cloud computing platforms (AWS, Azure, GCP)",
+            "Analytical thinking and problem-solving abilities",
+            "Experience with big data tools (Hadoop, Spark)"
+        ],
+        "education": "A bachelor\u2019s degree in Computer Science, Engineering, or a related field is required. A master\u2019s degree or Ph.D. in AI, Machine Learning, or Data Science is often preferred.",
+        "duties": [
+            "Developing AI models and deploying them into production systems",
+            "Training machine learning models with large datasets",
+            "Collaborating with data scientists and engineers",
+            "Improving performance of existing AI systems",
+            "Staying current with AI research and trends",
+            "Ensuring AI systems comply with ethical and privacy standards"
+        ],
+        "salary": "\u20b98,00,000 to \u20b925,00,000 per year (India, varies by company and experience).",
+        "organizations": [
+            "Google India",
+            "Microsoft",
+            "Infosys",
+            "Wipro",
+            "Amazon",
+            "TCS",
+            "Startups and research labs focusing on AI"
+        ]
+    },
+    "Clinical Research Associate": {
+        "id": "Clinical Research Associate",
+        "title": "Clinical Research Associate",
+        "description": "Clinical Research Associates (CRAs) play a key role in monitoring clinical trials and ensuring compliance with regulatory requirements. They coordinate with investigators, ensure accurate documentation, and maintain data integrity throughout the trial process.",
+        "skills": [
+            "Knowledge of clinical trial protocols and Good Clinical Practice (GCP)",
+            "Attention to detail and organizational skills",
+            "Analytical and problem-solving abilities",
+            "Strong communication and documentation skills",
+            "Ability to work independently and travel frequently",
+            "Familiarity with regulatory requirements and ethics compliance"
+        ],
+        "education": "A bachelor's degree in Life Sciences, Pharmacy, Nursing, or a related field is typically required. Advanced degrees or certifications in clinical research are advantageous.",
+        "duties": [
+            "Monitoring clinical trials at various sites",
+            "Ensuring adherence to protocols and regulations",
+            "Verifying data accuracy and maintaining trial records",
+            "Training and supporting clinical site staff",
+            "Reporting on trial progress and addressing issues",
+            "Interacting with ethics committees and regulatory bodies"
+        ],
+        "salary": "\u20b93,50,000 to \u20b98,00,000 per year (India, based on experience and employer).",
+        "organizations": []
+    },
+    "Mechanical Engineer": {
+        "id": "Mechanical Engineer",
+        "title": "Mechanical Engineer",
+        "description": "A Mechanical Engineer designs, develops, builds, and tests mechanical and thermal devices, including tools, engines, and machines. They work in various industries such as automotive, aerospace, energy, and manufacturing.",
+        "skills": [
+            "Strong analytical and problem-solving skills",
+            "Proficiency in CAD software and engineering tools",
+            "Knowledge of thermodynamics, materials science, and mechanics",
+            "Project management abilities",
+            "Creativity and innovation in design",
+            "Communication and teamwork skills"
+        ],
+        "education": "A bachelor's degree in Mechanical Engineering or a related field is required. Higher-level positions may require a master's degree or relevant certifications.",
+        "duties": [
+            "Designing and testing mechanical systems and products",
+            "Analyzing problems and developing mechanical solutions",
+            "Overseeing the manufacturing process",
+            "Ensuring safety and compliance with standards",
+            "Collaborating with cross-functional teams",
+            "Improving mechanical processes and efficiency"
+        ],
+        "salary": "\u20b94,00,000 to \u20b910,00,000 per year (India, depending on experience and sector).",
+        "organizations": []
+    },
+    "Instructional Designer": {
+        "id": "Instructional Designer",
+        "title": "Instructional Designer",
+        "description": "An Instructional Designer creates educational programs and materials that enhance learning and improve performance. They apply learning theories and instructional design models to develop effective training and e-learning experiences.",
+        "skills": [
+            "Knowledge of instructional design models (ADDIE, Bloom's Taxonomy, etc.)",
+            "Proficiency with e-learning software (Articulate, Captivate, etc.)",
+            "Excellent writing and communication skills",
+            "Understanding of learning management systems (LMS)",
+            "Creativity and attention to detail",
+            "Collaboration and project management skills"
+        ],
+        "education": "A bachelor's degree in Education, Instructional Design, Educational Technology, or a related field is required. A master's degree or certifications in instructional design tools and techniques can be advantageous.",
+        "duties": [
+            "Analyzing learning needs and target audiences",
+            "Designing instructional materials and activities",
+            "Developing e-learning modules and assessments",
+            "Collaborating with subject matter experts (SMEs)",
+            "Evaluating the effectiveness of training programs",
+            "Updating content based on learner feedback"
+        ],
+        "salary": "\u20b94,00,000 to \u20b910,00,000 per year (India, depending on experience and industry).",
+        "organizations": [
+            "BYJU'S",
+            "NIIT",
+            "LinkedIn Learning",
+            "TCS iON",
+            "Academic institutions and corporate L&D teams"
+        ]
+    },
+    "aerospace-engineer": {
+        "id": "aerospace-engineer",
+        "title": "Aerospace Engineer",
+        "description": "Aerospace Engineers design, develop, and test aircraft, spacecraft, and missiles. They work on cutting-edge technology, ensuring safety, efficiency, and innovation in flight and space exploration systems.",
+        "skills": [
+            "Strong analytical and mathematical skills",
+            "Proficiency in CAD and simulation software",
+            "Knowledge of aerodynamics and propulsion systems",
+            "Problem-solving and critical thinking",
+            "Attention to detail and design accuracy",
+            "Teamwork and project management skills"
+        ],
+        "education": "A bachelor\u2019s degree in Aerospace Engineering or Mechanical Engineering is essential. A master\u2019s or Ph.D. is advantageous for research roles and specialization.",
+        "duties": [
+            "Designing and testing aerospace products",
+            "Ensuring compliance with safety and regulatory standards",
+            "Analyzing data to troubleshoot design issues",
+            "Working with cross-functional engineering teams",
+            "Developing prototypes and overseeing manufacturing",
+            "Maintaining documentation and technical reports"
+        ],
+        "salary": "\u20b96,00,000 to \u20b915,00,000 per year (India, depending on experience and sector).",
+        "organizations": [
+            "ISRO (Indian Space Research Organisation)",
+            "DRDO (Defence Research and Development Organisation)",
+            "HAL (Hindustan Aeronautics Limited)",
+            "Airbus",
+            "Boeing",
+            "Private aerospace startups and MNCs"
+        ]
+    },
+    "Veterinarian": {
+        "id": "Veterinarian",
+        "title": "Veterinarian",
+        "description": "Veterinarians diagnose and treat medical conditions in animals, both domestic and wild. They provide preventive healthcare, perform surgeries, and advise pet owners or animal handlers on proper care and nutrition.",
+        "skills": [
+            "Strong knowledge of animal anatomy and diseases",
+            "Excellent diagnostic and surgical skills",
+            "Empathy and patience with animals and their owners",
+            "Critical thinking and problem-solving",
+            "Manual dexterity and attention to detail",
+            "Communication and interpersonal skills"
+        ],
+        "education": "A Bachelor of Veterinary Science and Animal Husbandry (B.V.Sc & AH) is required. Advanced specialization or a Master\u2019s/Ph.D. is beneficial for research or academic roles. A license from the Veterinary Council of India is mandatory to practice.",
+        "duties": [
+            "Diagnosing illnesses and injuries in animals",
+            "Performing surgeries and administering treatments",
+            "Conducting regular health check-ups and vaccinations",
+            "Educating pet owners on animal care and nutrition",
+            "Maintaining detailed medical records of animals",
+            "Collaborating with other animal health professionals"
+        ],
+        "salary": "\u20b94,00,000 to \u20b910,00,000 per year (India, depending on experience and type of practice).",
+        "organizations": [
+            "Private veterinary clinics and hospitals",
+            "Government animal husbandry departments",
+            "Animal welfare organizations (e.g., PETA, Blue Cross)",
+            "Zoos and wildlife sanctuaries",
+            "Pharmaceutical and animal nutrition companies"
+        ]
+    },
+    "Compliance Officer": {
+        "id": "Compliance Officer",
+        "title": "Compliance Officer",
+        "description": "A Compliance Officer ensures that a company adheres to legal standards and in-house policies. They are responsible for enforcing regulations in all aspects and levels of business and providing guidance on compliance matters.",
+        "skills": [
+            "Strong understanding of legal guidelines and corporate governance",
+            "Excellent analytical and organizational skills",
+            "Attention to detail and problem-solving ability",
+            "Communication and interpersonal skills",
+            "Integrity and professionalism",
+            "Risk management knowledge"
+        ],
+        "education": "A bachelor's degree in Law, Finance, Business Administration, or a related field is required. Certifications such as Certified Compliance & Ethics Professional (CCEP) or similar are advantageous.",
+        "duties": [
+            "Developing and reviewing company policies",
+            "Monitoring compliance with laws, regulations, and internal policies",
+            "Assessing business risks and implementing compliance measures",
+            "Preparing compliance reports and presenting to management",
+            "Conducting audits and investigations when necessary",
+            "Training staff on compliance-related topics"
+        ],
+        "salary": "\u20b95,00,000 to \u20b915,00,000 per year (India, varies with experience and industry).",
+        "organizations": [
+            "Financial institutions and banks",
+            "Healthcare and pharmaceutical companies",
+            "IT and software firms",
+            "Manufacturing and energy companies",
+            "Government regulatory bodies",
+            "Corporate consulting firms"
+        ]
+    },
+    "Pharmaceutical Scientist": {
+        "id": "Pharmaceutical Scientist",
+        "title": "Pharmaceutical Scientist",
+        "description": "A Pharmaceutical Scientist researches and develops new drugs and therapies to improve human health. They are involved in all stages of drug development, from discovery and formulation to clinical trials and regulatory approval.",
+        "skills": [
+            "Strong background in chemistry, biology, and pharmacology",
+            "Laboratory and analytical skills",
+            "Attention to detail and accuracy",
+            "Problem-solving and critical thinking",
+            "Regulatory knowledge and documentation skills",
+            "Teamwork and communication abilities"
+        ],
+        "education": "A bachelor's degree in Pharmacy, Chemistry, or a related life science is essential. Advanced positions may require a master's or Ph.D. in Pharmaceutical Sciences or a related field.",
+        "duties": [
+            "Conducting experiments to discover and test new drugs",
+            "Developing drug formulations and delivery systems",
+            "Ensuring compliance with regulatory standards",
+            "Collaborating with cross-functional teams in R&D",
+            "Analyzing data from clinical trials and lab tests",
+            "Documenting research findings and submitting reports"
+        ],
+        "salary": "\u20b94,50,000 to \u20b912,00,000 per year (India, based on qualifications and experience).",
+        "organizations": [
+            "Dr. Reddy's Laboratories",
+            "Sun Pharma",
+            "Cipla",
+            "Biocon",
+            "Pfizer",
+            "Academic and government research institutions"
+        ]
+    },
+    "sustainabilty-consultant": {
+        "id": "sustainabilty-consultant",
+        "title": "Sustainability Consultant",
+        "description": "A Sustainability Consultant advises organizations on strategies to reduce environmental impact, improve energy efficiency,\n          and implement sustainable practices. They evaluate existing processes and provide recommendations to achieve environmental\n          and regulatory goals.",
+        "skills": [
+            "Knowledge of environmental science and sustainability practices",
+            "Strong analytical and problem-solving skills",
+            "Project management and planning",
+            "Effective communication and presentation abilities",
+            "Regulatory compliance understanding",
+            "Data analysis and reporting skills"
+        ],
+        "education": "A bachelor's or master\u2019s degree in Environmental Science, Sustainability, Engineering, or a related field is required.\n          Certifications like LEED or ISO 14001 can be advantageous.",
+        "duties": [
+            "Assessing environmental impact and sustainability performance",
+            "Developing and implementing sustainability strategies",
+            "Advising on regulatory compliance and green certification",
+            "Conducting audits and creating reports",
+            "Collaborating with clients and stakeholders",
+            "Providing training on sustainability practices"
+        ],
+        "salary": "\u20b96,00,000 to \u20b915,00,000 per year (India, depending on experience and firm).",
+        "organizations": []
+    },
+    "Psychologist": {
+        "id": "Psychologist",
+        "title": "Psychologist",
+        "description": "A Psychologist studies mental processes and human behavior by observing, interpreting, and recording how people relate to one another and to their environments. They help clients cope with mental health challenges and improve well-being.",
+        "skills": [
+            "Empathy and active listening",
+            "Strong analytical and observational skills",
+            "Knowledge of psychological theories and practices",
+            "Excellent communication and interpersonal skills",
+            "Patience and emotional resilience",
+            "Ethical judgment and confidentiality"
+        ],
+        "education": "A master's degree or doctoral degree (Ph.D. or Psy.D.) in Psychology is typically required. Licensure or certification is also mandatory for clinical practice.",
+        "duties": [
+            "Conducting psychological assessments and evaluations",
+            "Diagnosing and treating mental and emotional disorders",
+            "Providing therapy and counseling to individuals or groups",
+            "Developing treatment plans and monitoring progress",
+            "Conducting research to improve understanding of behavior",
+            "Collaborating with other healthcare professionals"
+        ],
+        "salary": "\u20b93,00,000 to \u20b910,00,000 per year (India, varies by specialization and experience).",
+        "organizations": [
+            "Hospitals and mental health clinics",
+            "Educational institutions and universities",
+            "Private counseling practices",
+            "Corporate wellness programs",
+            "Government and military organizations",
+            "Research and academic institutions"
+        ]
+    },
+    "Project Manager": {
+        "id": "Project Manager",
+        "title": "Project Manager",
+        "description": "A Project Manager is responsible for planning, executing, and closing projects according to deadlines and within budget. This role involves coordinating team members, managing resources, and communicating with stakeholders to ensure successful project delivery.",
+        "skills": [
+            "Strong organizational and leadership skills",
+            "Excellent communication and interpersonal abilities",
+            "Time management and multitasking",
+            "Proficiency in project management tools (e.g., Jira, Trello, MS Project)",
+            "Problem-solving and decision-making skills",
+            "Risk management and budgeting knowledge"
+        ],
+        "education": "A bachelor\u2019s degree in Business, Engineering, or a related field is typically required. A Project Management Professional (PMP) certification or equivalent is highly valued.",
+        "duties": [
+            "Defining project scope, goals, and deliverables",
+            "Creating project plans and timelines",
+            "Coordinating internal teams and resources",
+            "Managing budgets and tracking expenditures",
+            "Identifying and mitigating risks",
+            "Monitoring progress and adjusting plans as needed"
+        ],
+        "salary": "\u20b98,00,000 to \u20b920,00,000 per year (India, varies by experience and industry).",
+        "organizations": [
+            "Infosys",
+            "Wipro",
+            "TCS",
+            "Capgemini",
+            "Accenture",
+            "Various startups and MNCs across industries"
+        ]
+    },
+    "blockchain-developer": {
+        "id": "blockchain-developer",
+        "title": "Blockchain Developer",
+        "description": "A Blockchain Developer is responsible for designing, implementing, and maintaining decentralized applications and blockchain systems. They work with blockchain technologies like Ethereum, Bitcoin, Hyperledger, and write smart contracts to support secure and transparent transactions.",
+        "skills": [
+            "Proficiency in programming languages like Solidity, JavaScript, Python, or Go",
+            "Understanding of cryptography and security protocols",
+            "Smart contract development and testing",
+            "Knowledge of blockchain platforms like Ethereum, Hyperledger, etc.",
+            "Problem-solving and analytical thinking",
+            "Experience with decentralized application (DApp) development"
+        ],
+        "education": "A bachelor's degree in Computer Science, Information Technology, or a related field is typically required. Additional certifications in blockchain technologies or decentralized finance (DeFi) are advantageous.",
+        "duties": [
+            "Designing and developing blockchain protocols and architecture",
+            "Creating smart contracts and decentralized applications (DApps)",
+            "Conducting security audits and ensuring system integrity",
+            "Integrating blockchain solutions with existing systems",
+            "Staying up to date with emerging blockchain technologies",
+            "Testing and troubleshooting blockchain-based applications"
+        ],
+        "salary": "\u20b96,00,000 to \u20b925,00,000 per year (India, depending on experience and project scope).",
+        "organizations": [
+            "Infosys",
+            "Tata Consultancy Services (TCS)",
+            "Wipro",
+            "Accenture",
+            "IBM Blockchain",
+            "Startups in the fintech and DeFi space"
+        ]
+    },
+    "environmental-scientist": {
+        "id": "environmental-scientist",
+        "title": "Environmental Scientist",
+        "description": "Environmental Scientists work to identify, control, and reduce pollutants and hazards that affect the environment and human health. They conduct research, prepare reports, and advise policymakers on sustainable practices and regulatory compliance.",
+        "skills": [
+            "Strong analytical and research skills",
+            "Knowledge of environmental regulations and science",
+            "Laboratory and fieldwork competency",
+            "Data analysis and statistical skills",
+            "Excellent communication and reporting skills",
+            "Problem-solving and project management abilities"
+        ],
+        "education": "A bachelor's degree in Environmental Science, Biology, Chemistry, or related fields is essential. Advanced roles may require a master's degree or Ph.D. Certifications in environmental management are also beneficial.",
+        "duties": [
+            "Conducting environmental impact assessments",
+            "Collecting and analyzing environmental data",
+            "Advising on waste management and pollution control",
+            "Developing sustainability strategies",
+            "Ensuring compliance with environmental laws and regulations",
+            "Educating the public and policymakers about environmental risks"
+        ],
+        "salary": "\u20b93,50,000 to \u20b910,00,000 per year (India, depending on role and experience).",
+        "organizations": [
+            "Ministry of Environment, Forest and Climate Change",
+            "National Environmental Engineering Research Institute (NEERI)",
+            "Central Pollution Control Board (CPCB)",
+            "WWF India",
+            "Greenpeace",
+            "Private environmental consultancy firms"
+        ]
+    },
+    "Corporate Trainer": {
+        "id": "Corporate Trainer",
+        "title": "Corporate Trainer",
+        "description": "Corporate Trainers are responsible for improving the skills, knowledge, and performance of employees within an organization. They design and deliver training programs to help employees meet organizational goals and stay updated with industry trends.",
+        "skills": [
+            "Excellent communication and presentation skills",
+            "Instructional design and curriculum development",
+            "Analytical and assessment skills",
+            "Ability to engage and motivate learners",
+            "Organizational and time management skills",
+            "Technical proficiency in training tools and platforms"
+        ],
+        "education": "A bachelor's degree in Human Resources, Education, Business Administration, or a related field is typically required. Certifications in training and development or instructional design are advantageous.",
+        "duties": [
+            "Assessing training needs within the organization",
+            "Designing and developing customized training programs",
+            "Delivering engaging and effective training sessions",
+            "Evaluating training outcomes and effectiveness",
+            "Updating training materials to reflect current practices",
+            "Collaborating with management to align training with business goals"
+        ],
+        "salary": "\u20b94,00,000 to \u20b910,00,000 per year (India, depending on experience and industry).",
+        "organizations": []
+    },
+    "data-scientist": {
+        "id": "data-scientist",
+        "title": "Data Scientist",
+        "description": "A Data Scientist collects, analyzes, and interprets complex data to help organizations make informed business decisions.\n          They use statistical methods, machine learning, and data visualization tools to identify patterns and trends.",
+        "skills": [
+            "Programming in Python, R, or SQL",
+            "Statistical analysis and machine learning",
+            "Data cleaning and preprocessing",
+            "Data visualization with tools like Tableau or Matplotlib",
+            "Big data tools (e.g., Hadoop, Spark)",
+            "Critical thinking and business acumen"
+        ],
+        "education": "A bachelor\u2019s degree in Computer Science, Mathematics, Statistics, or related fields is a starting point. A Master\u2019s or Ph.D.\n          in Data Science or related disciplines is often preferred for advanced roles.",
+        "duties": [
+            "Gathering and interpreting data from various sources",
+            "Building predictive models and machine learning algorithms",
+            "Visualizing data insights for stakeholders",
+            "Collaborating with engineering and business teams",
+            "Conducting A/B testing and statistical analysis",
+            "Communicating findings to guide business decisions"
+        ],
+        "salary": "\u20b96,00,000 to \u20b920,00,000 per year (India, depending on skills and experience).",
+        "organizations": []
+    },
+    "nutritionist": {
+        "id": "nutritionist",
+        "title": "Nutritionist",
+        "description": "A Nutritionist is a health professional who specializes in food and nutrition. They help individuals develop healthy eating habits and create nutrition plans tailored to their specific health goals and conditions.",
+        "skills": [
+            "Strong knowledge of human nutrition and dietary needs",
+            "Ability to assess individual nutritional requirements",
+            "Excellent communication and counseling skills",
+            "Critical thinking and problem-solving",
+            "Understanding of food safety and health regulations",
+            "Research and analytical skills"
+        ],
+        "education": "A bachelor's degree in Nutrition, Dietetics, or a related health field is required. Further certifications like Registered Dietitian (RD) or postgraduate studies in clinical nutrition are advantageous.",
+        "duties": [
+            "Assessing clients\u2019 nutritional needs and health goals",
+            "Creating customized diet plans and meal guidelines",
+            "Educating individuals and groups on healthy eating habits",
+            "Monitoring and evaluating the effectiveness of nutrition plans",
+            "Collaborating with healthcare providers for holistic care",
+            "Conducting nutritional research and staying up to date with dietary trends"
+        ],
+        "salary": "\u20b92,50,000 to \u20b96,00,000 per year (India, depending on experience and setting).",
+        "organizations": []
+    },
+    "event_manager": {
+        "id": "event_manager",
+        "title": "Event Manager",
+        "description": "An Event Manager is responsible for planning, organizing, and executing events such as conferences, weddings,\n          corporate meetings, and exhibitions. They coordinate all aspects of events to ensure they meet client expectations\n          and run smoothly.",
+        "skills": [
+            "Strong organizational and time-management skills",
+            "Excellent communication and interpersonal abilities",
+            "Budgeting and financial management",
+            "Negotiation skills",
+            "Creativity and attention to detail",
+            "Problem-solving under pressure"
+        ],
+        "education": "A bachelor's degree in Event Management, Hospitality, Public Relations, or a related field is typically required.\n          Certifications in event planning can be advantageous.",
+        "duties": [
+            "Meeting with clients to understand their event requirements",
+            "Planning event concepts and themes",
+            "Coordinating with vendors, venues, and other stakeholders",
+            "Managing event budgets and ensuring cost-effectiveness",
+            "Overseeing event setup, execution, and breakdown",
+            "Handling issues that arise during events",
+            "Evaluating event success and gathering feedback"
+        ],
+        "salary": "\u20b93,00,000 to \u20b98,00,000 per year (India, based on experience and location).",
+        "organizations": []
+    },
+    "AI Research Scientist": {
+        "id": "AI Research Scientist",
+        "title": "AI Research Scientist",
+        "description": "AI Research Scientists explore cutting-edge artificial intelligence technologies and develop innovative algorithms and models. They focus on advancing the field through theoretical work, experimentation, and application of AI to solve real-world problems.",
+        "skills": [
+            "Strong knowledge of machine learning and deep learning algorithms",
+            "Proficiency in programming languages like Python, R, or C++",
+            "Research and analytical skills",
+            "Mathematical and statistical proficiency",
+            "Experience with AI frameworks such as TensorFlow, PyTorch, etc.",
+            "Problem-solving and critical thinking abilities"
+        ],
+        "education": "A Ph.D. in Computer Science, Artificial Intelligence, Data Science, or related disciplines is preferred. Strong academic research background and published papers in peer-reviewed journals are advantageous.",
+        "duties": [
+            "Conducting advanced AI research and experiments",
+            "Publishing findings in academic journals and conferences",
+            "Developing novel algorithms and improving existing models",
+            "Collaborating with engineering and product teams to implement solutions",
+            "Staying updated with advancements in AI technologies",
+            "Contributing to open-source projects and initiatives"
+        ],
+        "salary": "\u20b910,00,000 to \u20b935,00,000 per year (India, varies with expertise and organization).",
+        "organizations": []
+    },
+    "Tourism Officer": {
+        "id": "Tourism Officer",
+        "title": "Tourism Officer",
+        "description": "A Tourism Officer develops and promotes tourism initiatives and campaigns to attract visitors and enhance the local economy. They work with government bodies, tourism boards, and businesses to improve tourist experiences.",
+        "skills": [
+            "Excellent communication and presentation skills",
+            "Marketing and promotional skills",
+            "Event planning and coordination",
+            "Knowledge of the tourism and hospitality industry",
+            "Creative thinking and cultural sensitivity",
+            "Networking and relationship-building skills"
+        ],
+        "education": "A bachelor's degree in Tourism Management, Hospitality, Marketing, or a related field is typically required. Experience in the tourism industry or public relations is advantageous.",
+        "duties": [
+            "Developing and implementing tourism strategies and campaigns",
+            "Promoting local attractions, events, and services",
+            "Organizing and managing tourism events and festivals",
+            "Conducting market research and analyzing trends",
+            "Liaising with local businesses and government departments",
+            "Producing promotional materials and travel information"
+        ],
+        "salary": "\u20b93,00,000 to \u20b98,00,000 per year (India, varies with experience and region).",
+        "organizations": [
+            "State Tourism Departments",
+            "Incredible India (Ministry of Tourism)",
+            "Private travel and tour companies",
+            "Hospitality and resort chains",
+            "Destination management organizations",
+            "Event and festival management companies"
+        ]
+    },
+    "Food Safety Specialist": {
+        "id": "Food Safety Specialist",
+        "title": "Food Safety Specialist",
+        "description": "A Food Safety Specialist ensures that food products meet safety and quality standards. They inspect food processing facilities, analyze procedures, and enforce regulations to protect public health and prevent contamination.",
+        "skills": [
+            "Knowledge of food safety regulations and standards (e.g., HACCP, FSSAI)",
+            "Attention to detail and analytical skills",
+            "Ability to conduct audits and inspections",
+            "Strong communication and documentation skills",
+            "Problem-solving and decision-making abilities",
+            "Understanding of microbiology and food science"
+        ],
+        "education": "A bachelor's degree in Food Science, Microbiology, or a related field is required. Certifications in food safety standards and auditing may be preferred.",
+        "duties": [
+            "Conducting inspections of food production and processing sites",
+            "Monitoring hygiene and safety practices",
+            "Testing food samples for contaminants",
+            "Ensuring compliance with food safety laws and guidelines",
+            "Training staff on safety protocols",
+            "Maintaining detailed records and reports"
+        ],
+        "salary": "\u20b93,50,000 to \u20b98,00,000 per year (India, varies by industry and experience).",
+        "organizations": []
+    },
+    "legal-advisor": {
+        "id": "legal-advisor",
+        "title": "Legal Advisor",
+        "description": "A Legal Advisor provides legal guidance and support to organizations or individuals, ensuring that their operations comply\n          with applicable laws and regulations. They may represent their clients in legal matters and help draft and review legal documents.",
+        "skills": [
+            "Strong knowledge of laws and legal procedures",
+            "Excellent analytical and research skills",
+            "Effective communication and negotiation",
+            "Attention to detail and logical reasoning",
+            "Document drafting and legal interpretation",
+            "Dispute resolution and advocacy skills"
+        ],
+        "education": "A bachelor's degree in Law (LLB) is required. Further specialization (LLM) or certification in corporate or constitutional law\n          can enhance opportunities.",
+        "duties": [
+            "Advising clients on legal rights and obligations",
+            "Drafting and reviewing contracts, agreements, and legal documents",
+            "Ensuring legal compliance of company operations",
+            "Representing clients in legal proceedings when necessary",
+            "Conducting legal research and staying updated on laws",
+            "Assisting in dispute resolution and negotiation"
+        ],
+        "salary": "\u20b95,00,000 to \u20b915,00,000 per year (India, depending on experience and field of specialization).",
+        "organizations": []
+    },
+    "agricultuarl-scientist": {
+        "id": "agricultuarl-scientist",
+        "title": "Agricultural Scientist",
+        "description": "An Agricultural Scientist researches ways to improve the productivity and sustainability of farms and agricultural systems.\n          They work on enhancing crop yields, soil health, pest resistance, and agricultural technology.",
+        "skills": [
+            "Scientific research and data analysis",
+            "Understanding of plant and soil science",
+            "Problem-solving and critical thinking",
+            "Knowledge of agricultural machinery and technology",
+            "Fieldwork and laboratory skills",
+            "Technical writing and communication"
+        ],
+        "education": "A bachelor\u2019s degree in Agriculture, Agricultural Science, Biology, or related fields is essential. Advanced roles may require\n          a Master\u2019s or Ph.D. in a specialized agricultural field.",
+        "duties": [
+            "Conducting research on crop improvement and soil health",
+            "Developing environmentally sustainable farming techniques",
+            "Collaborating with farmers and agricultural companies",
+            "Testing and developing new fertilizers, seeds, and pesticides",
+            "Analyzing data and publishing findings in scientific journals",
+            "Advising policymakers and stakeholders on agricultural practices"
+        ],
+        "salary": "\u20b93,50,000 to \u20b99,00,000 per year (India, depending on role and experience).",
+        "organizations": []
+    },
+    "Corporate Lawyer": {
+        "id": "Corporate Lawyer",
+        "title": "Corporate Lawyer",
+        "description": "A Corporate Lawyer provides legal counsel to businesses on a variety of matters, including mergers, acquisitions, intellectual property, and labor relations. They help businesses navigate legal challenges, ensure compliance with regulations, and safeguard the organization's interests in legal disputes.",
+        "skills": [
+            "Strong understanding of business law and corporate governance",
+            "Excellent negotiation and communication skills",
+            "Attention to detail and analytical thinking",
+            "Ability to interpret complex legal language",
+            "Strong ethical standards and professional conduct",
+            "Proficiency in contract law and intellectual property law"
+        ],
+        "education": "A law degree (LLB or equivalent) is required, followed by specialized knowledge in corporate law. Professional certifications or memberships with law associations are often necessary. Experience in corporate legal practices is highly valued.",
+        "duties": [
+            "Providing legal advice on corporate governance and compliance issues",
+            "Drafting, reviewing, and negotiating contracts and agreements",
+            "Representing the company in negotiations and disputes",
+            "Ensuring compliance with regulatory requirements and laws",
+            "Managing mergers, acquisitions, and joint ventures",
+            "Handling intellectual property, including trademarks, patents, and copyrights"
+        ],
+        "salary": "\u20b98,00,000 to \u20b920,00,000 per year (India, based on experience and organization size).",
+        "organizations": []
+    },
+    "industrial-automation-specialist": {
+        "id": "industrial-automation-specialist",
+        "title": "Industrial Automation Specialist",
+        "description": "An Industrial Automation Specialist designs, implements, and maintains automated systems used in manufacturing and industrial settings. Their work focuses on improving efficiency, productivity, and safety through the use of control systems, robotics, and related technologies.",
+        "skills": [
+            "Knowledge of PLC programming and SCADA systems",
+            "Electrical and mechanical systems understanding",
+            "Problem-solving and analytical thinking",
+            "Familiarity with robotics and control systems",
+            "Proficiency in CAD and simulation tools",
+            "Communication and teamwork skills"
+        ],
+        "education": "A bachelor's degree in Electrical Engineering, Mechanical Engineering, Mechatronics, or a related field is required. Certifications in automation tools and technologies are beneficial.",
+        "duties": [
+            "Designing and programming control systems",
+            "Installing and configuring automation equipment",
+            "Testing and troubleshooting control systems",
+            "Integrating sensors, actuators, and software",
+            "Collaborating with cross-functional engineering teams",
+            "Ensuring compliance with industry standards and safety regulations"
+        ],
+        "salary": "\u20b95,00,000 to \u20b912,00,000 per year (India, based on skills and experience).",
+        "organizations": []
+    },
+    "financial-planner": {
+        "id": "financial-planner",
+        "title": "Financial Planner",
+        "description": "A Financial Planner helps individuals and organizations manage their finances by creating comprehensive plans to meet long-term financial goals. They provide advice on investments, insurance, tax strategies, retirement, and estate planning.",
+        "skills": [
+            "Strong analytical and numerical skills",
+            "Knowledge of investment strategies and financial products",
+            "Understanding of tax regulations and retirement planning",
+            "Communication and interpersonal skills",
+            "Ethical decision-making and confidentiality",
+            "Proficiency in financial planning software"
+        ],
+        "education": "A bachelor's degree in Finance, Economics, Accounting, or a related field is typically required. Professional certifications such as CFP (Certified Financial Planner) or CFA (Chartered Financial Analyst) are highly regarded.",
+        "duties": [
+            "Analyzing clients\u2019 financial status and goals",
+            "Developing customized financial plans",
+            "Recommending investment opportunities",
+            "Assisting with budgeting, saving, and debt management",
+            "Reviewing and updating financial plans periodically",
+            "Ensuring compliance with financial regulations"
+        ],
+        "salary": "\u20b95,00,000 to \u20b915,00,000 per year (India, depending on experience and client base).",
+        "organizations": []
+    },
+    "Environmental Consultant": {
+        "id": "Environmental Consultant",
+        "title": "Environmental Consultant",
+        "description": "Environmental Consultants provide expert advice to help businesses and government agencies minimize their environmental impact. They assess environmental data, develop solutions to environmental problems, and ensure compliance with regulations.",
+        "skills": [
+            "Environmental science and sustainability knowledge",
+            "Data analysis and interpretation",
+            "Report writing and communication skills",
+            "Problem-solving and project management",
+            "Familiarity with environmental regulations and legislation",
+            "Fieldwork and environmental sampling techniques"
+        ],
+        "education": "A bachelor\u2019s or master\u2019s degree in Environmental Science, Environmental Engineering, Ecology, or a related field is typically required. Certifications in environmental impact assessment or auditing are advantageous.",
+        "duties": [
+            "Conducting environmental impact assessments and audits",
+            "Advising clients on legal and environmental regulations",
+            "Developing and implementing sustainability strategies",
+            "Collecting and analyzing environmental data",
+            "Preparing technical reports and recommendations",
+            "Liaising with stakeholders including regulatory bodies"
+        ],
+        "salary": "\u20b95,00,000 to \u20b912,00,000 per year (India, depending on experience and employer).",
+        "organizations": []
+    },
+    "Renewable Energy Engineer": {
+        "id": "Renewable Energy Engineer",
+        "title": "Renewable Energy Engineer",
+        "description": "Renewable Energy Engineers design and implement clean energy systems such as solar, wind, hydro, and bioenergy. They work to optimize energy efficiency, reduce emissions, and support the transition to sustainable energy sources.",
+        "skills": [
+            "Strong knowledge of renewable energy technologies",
+            "Electrical and mechanical engineering skills",
+            "Energy modeling and system design",
+            "Project management and teamwork",
+            "Understanding of environmental policies",
+            "Data analysis and simulation software proficiency"
+        ],
+        "education": "A bachelor's or master\u2019s degree in Renewable Energy Engineering, Electrical Engineering, Mechanical Engineering, or a related discipline is required. Certifications in energy auditing or green building may be beneficial.",
+        "duties": [
+            "Designing and developing renewable energy systems",
+            "Conducting feasibility studies and site assessments",
+            "Monitoring and evaluating energy performance",
+            "Ensuring compliance with environmental and safety standards",
+            "Collaborating with architects, engineers, and stakeholders",
+            "Researching and applying innovative energy solutions"
+        ],
+        "salary": "\u20b96,00,000 to \u20b915,00,000 per year (India, depending on experience and sector).",
+        "organizations": []
+    },
+    "Biotechnology Researcher": {
+        "id": "Biotechnology Researcher",
+        "title": "Biotechnology Researcher",
+        "description": "A Biotechnology Researcher conducts scientific experiments and research to develop new products and processes in areas such as healthcare, agriculture, and environmental protection. Their work combines biology, chemistry, and technology to solve real-world problems.",
+        "skills": [
+            "Strong foundation in molecular biology, genetics, and biochemistry",
+            "Laboratory research and data analysis skills",
+            "Familiarity with bioinformatics tools and software",
+            "Problem-solving and critical thinking",
+            "Ability to work independently and in teams",
+            "Communication and technical writing skills"
+        ],
+        "education": "A bachelor's degree in Biotechnology, Biology, or a related field is required. A master's degree or Ph.D. is preferred for advanced research roles and academic positions.",
+        "duties": [
+            "Designing and conducting experiments to test hypotheses",
+            "Developing new biotechnological products and processes",
+            "Analyzing data and documenting findings",
+            "Collaborating with other scientists and industry professionals",
+            "Staying current with scientific literature and advancements",
+            "Ensuring compliance with safety and ethical standards"
+        ],
+        "salary": "\u20b95,00,000 to \u20b912,00,000 per year (India, varies with experience and specialization).",
+        "organizations": []
+    },
+    "Business Analyst": {
+        "id": "Business Analyst",
+        "title": "Business Analyst",
+        "description": "A Business Analyst bridges the gap between IT and the business using data analytics to assess processes, determine requirements, and deliver data-driven recommendations and reports to stakeholders.",
+        "skills": [
+            "Analytical thinking and problem-solving skills",
+            "Strong communication and interpersonal skills",
+            "Proficiency in data analysis and visualization tools (Excel, Tableau, Power BI)",
+            "Knowledge of SQL and data querying",
+            "Understanding of business processes and workflows",
+            "Documentation and requirement gathering"
+        ],
+        "education": "A bachelor's degree in Business Administration, Finance, Economics, Information Systems, or a related field is typically required. Certifications like CBAP or PMI-PBA can be advantageous.",
+        "duties": [
+            "Identifying business needs and determining solutions",
+            "Gathering and documenting functional requirements",
+            "Collaborating with stakeholders to understand business processes",
+            "Conducting market analysis and analyzing data trends",
+            "Creating reports and dashboards for decision-making",
+            "Supporting project implementation and testing"
+        ],
+        "salary": "\u20b95,00,000 to \u20b912,00,000 per year (India, varies by industry and experience).",
+        "organizations": [
+            "Accenture",
+            "Capgemini",
+            "Ernst & Young",
+            "Deloitte",
+            "Infosys",
+            "Tata Consultancy Services (TCS)",
+            "Startups and multinational corporations across industries"
+        ]
+    },
+    "Operations Manager": {
+        "id": "Operations Manager",
+        "title": "Operations Manager",
+        "description": "An Operations Manager oversees the production of goods and services, ensuring that business operations are efficient and effective. They manage the day-to-day processes and help streamline workflows across departments.",
+        "skills": [
+            "Leadership and team management",
+            "Strategic planning and organizational skills",
+            "Knowledge of supply chain and logistics",
+            "Data analysis and performance metrics",
+            "Communication and negotiation",
+            "Problem-solving and decision-making"
+        ],
+        "education": "A bachelor's degree in Business Administration, Operations Management, or a related field is typically required. An MBA or relevant certification adds value.",
+        "duties": [
+            "Managing daily business operations",
+            "Implementing policies and procedures",
+            "Monitoring KPIs and improving performance",
+            "Coordinating between departments",
+            "Overseeing inventory, procurement, and logistics",
+            "Ensuring compliance with regulations and standards"
+        ],
+        "salary": "\u20b97,00,000 to \u20b918,00,000 per year (India, depending on experience and industry).",
+        "organizations": []
+    },
+    "Satellite Systems Engineer": {
+        "id": "Satellite Systems Engineer",
+        "title": "Satellite Systems Engineer",
+        "description": "A Satellite Systems Engineer designs, develops, tests, and maintains satellite systems and components. This role involves working on both ground-based and space-based systems, ensuring communication, navigation, and data transmission work flawlessly.",
+        "skills": [
+            "Strong background in aerospace or electrical engineering",
+            "Knowledge of satellite communication and navigation systems",
+            "Understanding of orbital mechanics and space environment",
+            "Proficiency in CAD software and simulation tools",
+            "Problem-solving and analytical thinking",
+            "Team collaboration and project management skills"
+        ],
+        "education": "A bachelor's degree in Aerospace Engineering, Electrical Engineering, or a related field is required. A master's degree or relevant certifications in satellite systems engineering can enhance career prospects.",
+        "duties": [
+            "Designing satellite systems and subsystems",
+            "Collaborating on system integration and testing",
+            "Conducting performance analysis and simulations",
+            "Monitoring satellite operations and troubleshooting issues",
+            "Ensuring compliance with aerospace safety standards",
+            "Preparing technical documentation and reports"
+        ],
+        "salary": "\u20b96,00,000 to \u20b918,00,000 per year (India, depending on experience and specialization).",
+        "organizations": [
+            "Indian Space Research Organisation (ISRO)",
+            "Defense Research and Development Organization (DRDO)",
+            "Private aerospace firms like Antrix, Pixxel, Skyroot Aerospace",
+            "Satellite communication companies",
+            "International space agencies and contractors"
+        ]
+    },
+    "Game Developer": {
+        "id": "Game Developer",
+        "title": "Game Developer",
+        "description": "Game Developers design and create video games for computers, consoles, and mobile devices. They use programming languages, game engines, and graphics design to bring interactive stories and experiences to life.",
+        "skills": [
+            "Proficiency in programming languages (C++, C#, Python, etc.)",
+            "Experience with game engines like Unity or Unreal Engine",
+            "Understanding of computer graphics and physics",
+            "Problem-solving and debugging skills",
+            "Creative and storytelling abilities",
+            "Teamwork and communication skills"
+        ],
+        "education": "A bachelor's degree in Computer Science, Game Design, Software Engineering, or a related field is commonly required. Game development certifications and portfolios are highly valuable.",
+        "duties": [
+            "Designing and coding gameplay systems",
+            "Creating and integrating game assets",
+            "Testing and debugging games for performance",
+            "Collaborating with designers, artists, and sound engineers",
+            "Maintaining and updating games post-release",
+            "Staying current with gaming technology and trends"
+        ],
+        "salary": "\u20b94,00,000 to \u20b912,00,000 per year (India, depending on experience and company).",
+        "organizations": []
+    },
+    "Teacher (Secondary Education)": {
+        "id": "Teacher (Secondary Education)",
+        "title": "Teacher (Secondary Education)",
+        "description": "A Secondary Education Teacher is responsible for educating students typically in grades 6 through 12. They develop lesson plans, deliver lectures, evaluate student performance, and foster a positive and engaging classroom environment.",
+        "skills": [
+            "Strong communication and presentation skills",
+            "Classroom management abilities",
+            "Expertise in subject matter (e.g., Math, Science, English)",
+            "Patience, empathy, and adaptability",
+            "Assessment and evaluation skills",
+            "Use of educational technology and tools"
+        ],
+        "education": "A bachelor's degree in Education (B.Ed.) or a subject-specific degree with a teaching certification is required. A master's degree may be preferred for certain subjects or higher grades.",
+        "duties": [
+            "Developing and implementing lesson plans",
+            "Delivering subject content in engaging ways",
+            "Assessing and evaluating student progress",
+            "Maintaining discipline and a productive classroom environment",
+            "Collaborating with parents and school staff",
+            "Participating in school activities and development programs"
+        ],
+        "salary": "\u20b92,50,000 to \u20b96,00,000 per year (India, depending on school, location, and experience).",
+        "organizations": [
+            "Kendriya Vidyalaya Sangathan (KVS)",
+            "Jawahar Navodaya Vidyalaya (JNV)",
+            "Private CBSE/ICSE/State Board Schools",
+            "International Schools",
+            "Online education platforms like BYJU\u2019S, Vedantu"
+        ]
+    },
+    "financial-analyst": {
+        "id": "financial-analyst",
+        "title": "Financial Analyst",
+        "description": "A Financial Analyst evaluates financial data, prepares reports, and develops strategies to guide business decisions. They help companies and individuals make investment decisions by analyzing trends, creating financial models, and forecasting future revenues and expenditures.",
+        "skills": [
+            "Strong analytical and quantitative skills",
+            "Proficiency in Excel and financial modeling",
+            "Understanding of accounting principles and financial statements",
+            "Knowledge of investment analysis tools and techniques",
+            "Excellent communication and presentation skills",
+            "Problem-solving and attention to detail"
+        ],
+        "education": "A bachelor's degree in Finance, Economics, Accounting, or a related field is essential. A master's degree or certifications like CFA (Chartered Financial Analyst) can enhance career prospects.",
+        "duties": [
+            "Analyzing financial statements and market trends",
+            "Preparing financial models and forecasts",
+            "Monitoring economic and business developments",
+            "Providing recommendations for investments and budgeting",
+            "Supporting strategic planning and decision-making",
+            "Collaborating with accounting and management teams"
+        ],
+        "salary": "\u20b94,00,000 to \u20b912,00,000 per year (India, depending on experience and industry).",
+        "organizations": [
+            "Goldman Sachs",
+            "J.P. Morgan",
+            "Deloitte",
+            "KPMG",
+            "HDFC Bank",
+            "Infosys and other corporate finance departments"
+        ]
+    },
+    "Urban Planner": {
+        "id": "Urban Planner",
+        "title": "Urban Planner",
+        "description": "An Urban Planner develops plans and programs for land use in urban, suburban, and rural areas. They help communities manage growth, improve infrastructure, and ensure sustainable and efficient development.",
+        "skills": [
+            "Strong analytical and problem-solving skills",
+            "Knowledge of zoning laws and urban development regulations",
+            "Proficiency in GIS and planning software",
+            "Effective communication and public speaking abilities",
+            "Project management and collaboration skills",
+            "Understanding of environmental and social sustainability"
+        ],
+        "education": "A bachelor's degree in Urban Planning, Architecture, Civil Engineering, or Geography is essential. A master's degree in Urban or Regional Planning is often preferred for advanced roles.",
+        "duties": [
+            "Creating land use plans and policies for urban development",
+            "Analyzing population trends, infrastructure, and environmental data",
+            "Engaging with government bodies, stakeholders, and the public",
+            "Evaluating development proposals and zoning regulations",
+            "Promoting sustainable and efficient community growth",
+            "Monitoring and updating urban development plans"
+        ],
+        "salary": "\u20b94,00,000 to \u20b910,00,000 per year (India, varies based on experience and employer).",
+        "organizations": []
+    },
+    "Radiologic Technologist": {
+        "id": "Radiologic Technologist",
+        "title": "Radiologic Technologist",
+        "description": "A Radiologic Technologist performs diagnostic imaging examinations such as X-rays, CT scans, and MRIs to assist physicians in diagnosing medical conditions. They ensure patient safety, operate imaging equipment, and maintain detailed imaging records.",
+        "skills": [
+            "Proficiency in operating radiologic imaging equipment",
+            "Knowledge of anatomy, physiology, and radiographic positioning",
+            "Attention to detail and strong observational skills",
+            "Effective communication and patient care abilities",
+            "Understanding of radiation protection and safety protocols",
+            "Ability to follow precise technical instructions"
+        ],
+        "education": "A diploma or associate degree in Radiologic Technology or Medical Imaging is typically required. Certification or licensing from a recognized radiologic board is often necessary to practice professionally.",
+        "duties": [
+            "Preparing patients for radiologic procedures",
+            "Operating imaging equipment to capture diagnostic images",
+            "Maintaining patient records and imaging reports",
+            "Ensuring radiation safety measures are in place",
+            "Assisting physicians in evaluating images",
+            "Maintaining equipment and cleanliness of imaging areas"
+        ],
+        "salary": "\u20b93,00,000 to \u20b97,00,000 per year (India, varies with experience, institution, and location).",
+        "organizations": [
+            "Hospitals and Diagnostic Centers",
+            "Private and Government Healthcare Facilities",
+            "Medical Imaging Labs",
+            "Telemedicine and Teleradiology Services",
+            "Medical Colleges and Universities",
+            "Radiology Equipment Manufacturers"
+        ]
+    },
+    "Software Developer": {
+        "id": "Software Developer",
+        "title": "Software Developer",
+        "description": "A Software Developer designs, codes, tests, and maintains software applications and systems. They work across a variety of industries, using programming languages and tools to create efficient and innovative software solutions.",
+        "skills": [
+            "Proficiency in programming languages like Java, Python, C++, or JavaScript",
+            "Understanding of software development methodologies (Agile, Scrum)",
+            "Strong problem-solving and analytical skills",
+            "Version control systems (e.g., Git)",
+            "Database management and design",
+            "Communication and collaboration skills"
+        ],
+        "education": "A bachelor's degree in Computer Science, Software Engineering, or a related field is typically required. Practical experience through internships, projects, or certifications is highly beneficial.",
+        "duties": [
+            "Writing and testing code for new programs",
+            "Fixing bugs and improving performance of existing software",
+            "Collaborating with cross-functional teams to define requirements",
+            "Deploying applications and providing ongoing support",
+            "Documenting software functionality and updates",
+            "Keeping up with industry trends and emerging technologies"
+        ],
+        "salary": "\u20b94,00,000 to \u20b915,00,000 per year (India, varies by experience, location, and organization).",
+        "organizations": []
+    },
+    "public_relation_specialist": {
+        "id": "public_relation_specialist",
+        "title": "Public Relations Specialist",
+        "description": "A Public Relations Specialist manages an organization\u2019s public image and communications with the media, customers,\n          investors, and the general public. They help build and maintain a positive reputation through strategic messaging,\n          media coverage, and community engagement.",
+        "skills": [
+            "Excellent written and verbal communication skills",
+            "Strong interpersonal and networking abilities",
+            "Media relations and crisis communication",
+            "Creativity and storytelling",
+            "Strategic thinking and brand awareness",
+            "Social media proficiency"
+        ],
+        "education": "A bachelor\u2019s degree in Public Relations, Communications, Journalism, Marketing, or a related field is typically required.\n          Advanced certifications or a master\u2019s in communications can provide additional opportunities.",
+        "duties": [
+            "Developing PR strategies and campaigns",
+            "Writing press releases, speeches, and media kits",
+            "Coordinating interviews and press conferences",
+            "Managing crisis communications",
+            "Monitoring media coverage and public sentiment",
+            "Building relationships with journalists and influencers",
+            "Handling internal and external communications"
+        ],
+        "salary": "\u20b94,00,000 to \u20b910,00,000 per year (India, based on experience and company).",
+        "organizations": []
+    },
+    "hotel-manager": {
+        "id": "hotel-manager",
+        "title": "Hotel Manager",
+        "description": "A Hotel Manager is responsible for overseeing the day-to-day operations of a hotel or resort. They manage staff, ensure guest satisfaction, monitor financial performance, and maintain the highest standards of hospitality and service.",
+        "skills": [
+            "Excellent leadership and team management skills",
+            "Strong organizational and decision-making abilities",
+            "Customer service and interpersonal skills",
+            "Budgeting and financial management knowledge",
+            "Problem-solving and conflict resolution skills",
+            "Knowledge of hospitality industry standards and regulations"
+        ],
+        "education": "A bachelor's degree in Hotel Management, Hospitality, Business Administration, or a related field is typically required. Advanced degrees or certifications in hospitality management are beneficial.",
+        "duties": [
+            "Supervising daily hotel operations and staff performance",
+            "Ensuring exceptional guest experiences and handling complaints",
+            "Managing budgets, revenue, and expenses",
+            "Coordinating with departments such as housekeeping, food services, and maintenance",
+            "Developing marketing strategies to attract guests",
+            "Ensuring compliance with health, safety, and legal regulations"
+        ],
+        "salary": "\u20b94,00,000 to \u20b912,00,000 per year (India, varies with experience and hotel size).",
+        "organizations": []
+    },
+    "flight-attendant": {
+        "id": "flight-attendant",
+        "title": "Flight Attendant",
+        "description": "A Flight Attendant ensures the safety and comfort of passengers during flights. They provide customer service, conduct safety demonstrations, assist in emergencies, and manage in-flight services.",
+        "skills": [
+            "Excellent communication and interpersonal skills",
+            "Calmness under pressure and conflict resolution skills",
+            "Customer service orientation",
+            "Ability to work irregular hours and travel extensively",
+            "Emergency response knowledge",
+            "Fluency in multiple languages is a plus"
+        ],
+        "education": "A high school diploma or equivalent is required. Completion of a flight attendant training program approved by the airline or aviation authority is necessary. Certification from aviation regulatory authorities may also be required.",
+        "duties": [
+            "Conducting safety demonstrations and ensuring compliance",
+            "Assisting passengers with seating and luggage",
+            "Serving food and beverages",
+            "Handling passenger inquiries and emergencies",
+            "Providing first aid when necessary",
+            "Coordinating with the flight crew for smooth operations"
+        ],
+        "salary": "\u20b94,00,000 to \u20b910,00,000 per year (India, varies by airline and experience).",
+        "organizations": []
+    },
+    "climate-change-analyst": {
+        "id": "climate-change-analyst",
+        "title": "Climate Change Analyst",
+        "description": "A Climate Change Analyst studies the effects of climate change on the environment and society. They analyze data and trends to provide insights and recommendations for policy and action.",
+        "skills": [
+            "Strong analytical and research skills",
+            "Knowledge of environmental science and climate policies",
+            "Excellent communication and presentation abilities",
+            "Proficiency in data analysis software",
+            "Problem-solving and critical thinking skills"
+        ],
+        "education": "A bachelor's degree in Environmental Science, Climate Studies, or a related field is typically required. Advanced degrees may be preferred for higher-level positions.",
+        "duties": [
+            "Conducting research on climate change impacts",
+            "Analyzing data and preparing reports",
+            "Advising organizations on climate strategies",
+            "Collaborating with government and NGOs on climate initiatives"
+        ],
+        "salary": "\u20b94,00,000 to \u20b910,00,000 per year (India, based on experience and location).",
+        "organizations": []
+    },
+    "Civil Engineer": {
+        "id": "Civil Engineer",
+        "title": "Civil Engineer",
+        "description": "A Civil Engineer designs, builds, supervises, operates, and maintains large construction projects and systems, including roads, buildings, airports, tunnels, dams, bridges, and systems for water supply and sewage treatment.",
+        "skills": [
+            "Strong mathematical and engineering skills",
+            "Knowledge of construction materials and methods",
+            "Proficiency in CAD and structural analysis software",
+            "Project management and leadership",
+            "Critical thinking and problem-solving",
+            "Communication and teamwork"
+        ],
+        "education": "A bachelor's degree in Civil Engineering or a related field is required. A master's degree or licensure as a Professional Engineer (PE) can improve job prospects.",
+        "duties": [
+            "Designing and supervising infrastructure projects",
+            "Analyzing survey reports, maps, and data",
+            "Managing construction budgets and timelines",
+            "Ensuring compliance with environmental and safety standards",
+            "Inspecting project sites and monitoring progress",
+            "Preparing engineering reports and documentation"
+        ],
+        "salary": "\u20b93,00,000 to \u20b910,00,000 per year (India, depending on experience and role).",
+        "organizations": [
+            "Larsen & Toubro (L&T)",
+            "Tata Projects",
+            "Gammon India",
+            "AFCONS Infrastructure",
+            "Public Works Departments (PWD)",
+            "National Highway Authority of India (NHAI)"
+        ]
+    },
+    "Air Traffic Controller": {
+        "id": "Air Traffic Controller",
+        "title": "Air Traffic Controller",
+        "description": "An Air Traffic Controller is responsible for coordinating the safe and orderly movement of aircraft in the sky and on the ground. They provide instructions to pilots during takeoff, landing, and while en route, ensuring minimal delays and avoiding collisions.",
+        "skills": [
+            "Excellent communication and decision-making skills",
+            "Strong spatial awareness and concentration",
+            "Ability to work under pressure",
+            "Multitasking and problem-solving abilities",
+            "Attention to detail",
+            "Technical and mathematical aptitude"
+        ],
+        "education": "A bachelor's degree in aviation, engineering, or a related field is recommended. Selection and training are typically conducted by national aviation authorities such as the Airports Authority of India (AAI).",
+        "duties": [
+            "Directing aircraft during takeoff, landing, and taxiing",
+            "Monitoring aircraft movements via radar and other systems",
+            "Providing pilots with weather updates and route information",
+            "Coordinating with other controllers and emergency services",
+            "Ensuring compliance with air traffic regulations",
+            "Managing multiple aircraft simultaneously with precision"
+        ],
+        "salary": "\u20b96,00,000 to \u20b915,00,000 per year (India, based on seniority and location).",
+        "organizations": [
+            "Airports Authority of India (AAI)",
+            "Directorate General of Civil Aviation (DGCA)",
+            "Indian Air Force",
+            "Indira Gandhi Institute of Aeronautics",
+            "Private and international airports"
+        ]
+    },
+    "Digital Content Creator": {
+        "id": "Digital Content Creator",
+        "title": "Digital Content Creator",
+        "description": "A Digital Content Creator develops and produces engaging content for online platforms such as websites, social media, blogs, and YouTube. They focus on building audience engagement through compelling visuals, copy, and multimedia storytelling.",
+        "skills": [
+            "Creative storytelling and copywriting",
+            "Proficiency in graphic design and video editing tools (Adobe Suite, Canva, Final Cut Pro)",
+            "Social media strategy and analytics",
+            "Basic SEO knowledge",
+            "Photography and videography skills",
+            "Time management and adaptability"
+        ],
+        "education": "A bachelor's degree in Communications, Media, Marketing, or a related field is beneficial. Many successful content creators also have certifications or portfolios showcasing their work.",
+        "duties": [
+            "Creating videos, graphics, and written content for digital platforms",
+            "Managing and updating social media accounts",
+            "Collaborating with marketing teams to align content with campaigns",
+            "Analyzing content performance and adjusting strategies",
+            "Staying updated with digital trends and platform changes",
+            "Engaging with audiences through comments and community features"
+        ],
+        "salary": "\u20b93,00,000 to \u20b910,00,000 per year (India, varies based on platform success, freelancing, and organization).",
+        "organizations": []
+    },
+    "mental-health-counselor": {
+        "id": "mental-health-counselor",
+        "title": "Mental Health Counselor",
+        "description": "Mental Health Counselors help individuals manage and overcome mental and emotional issues. They provide therapy, develop treatment plans, and support clients dealing with stress, depression, anxiety, and relationship issues.",
+        "skills": [
+            "Empathy and strong listening skills",
+            "Emotional intelligence and patience",
+            "Strong communication and interpersonal skills",
+            "Problem-solving and decision-making ability",
+            "Knowledge of mental health disorders and therapies",
+            "Confidentiality and ethical judgment"
+        ],
+        "education": "A master\u2019s degree in Psychology, Counseling, or Social Work is generally required. Additional certifications and clinical training are necessary for licensure and professional practice.",
+        "duties": [
+            "Conducting individual or group counseling sessions",
+            "Developing personalized treatment plans",
+            "Monitoring client progress and adjusting therapies",
+            "Providing crisis intervention when necessary",
+            "Maintaining accurate and confidential records",
+            "Collaborating with other mental health professionals"
+        ],
+        "salary": "\u20b93,00,000 to \u20b97,00,000 per year (India, based on experience and work setting).",
+        "organizations": [
+            "Hospitals and mental health clinics",
+            "Educational institutions",
+            "Rehabilitation centers",
+            "NGOs and counseling centers",
+            "Private practice"
+        ]
+    },
+    "Public Relations Strategist": {
+        "id": "Public Relations Strategist",
+        "title": "Public Relations Strategist",
+        "description": "A Public Relations Strategist develops and implements communication strategies to enhance the image and reputation of a company or individual. They manage media relations, craft press releases, and organize events to maintain a positive public perception.",
+        "skills": [
+            "Exceptional written and verbal communication",
+            "Media relations and networking",
+            "Crisis communication management",
+            "Strategic thinking and creativity",
+            "Social media and digital communication skills",
+            "Ability to analyze public opinion and feedback"
+        ],
+        "education": "A bachelor\u2019s degree in Public Relations, Communications, Journalism, or Marketing is typically required. Advanced certifications in strategic communication or media relations can be beneficial.",
+        "duties": [
+            "Developing PR campaigns and media strategies",
+            "Writing press releases, speeches, and content",
+            "Building and maintaining relationships with media",
+            "Monitoring media coverage and public perception",
+            "Managing crisis communications and reputation issues",
+            "Organizing promotional events and press conferences"
+        ],
+        "salary": "\u20b94,00,000 to \u20b912,00,000 per year (India, depending on experience and company).",
+        "organizations": []
+    },
+    "Construction Project Manager": {
+        "id": "Construction Project Manager",
+        "title": "Construction Project Manager",
+        "description": "A Construction Project Manager oversees the planning, coordination, budgeting, and supervision of construction projects from start to finish. They ensure projects are completed on time, within scope, and within budget while maintaining safety and quality standards.",
+        "skills": [
+            "Strong leadership and communication skills",
+            "Project management and organizational abilities",
+            "Knowledge of construction methods and materials",
+            "Budgeting and financial planning",
+            "Problem-solving and conflict resolution",
+            "Proficiency with project management software"
+        ],
+        "education": "A bachelor's degree in Civil Engineering, Construction Management, Architecture, or a related field is typically required. Professional certifications such as PMP or certification in construction management are advantageous.",
+        "duties": [
+            "Planning and defining project scope, goals, and deliverables",
+            "Coordinating with architects, engineers, and contractors",
+            "Managing project timelines, resources, and budget",
+            "Ensuring compliance with building codes and safety regulations",
+            "Supervising site operations and resolving issues",
+            "Communicating with stakeholders and providing progress updates"
+        ],
+        "salary": "\u20b96,00,000 to \u20b920,00,000 per year (India, depending on experience and project size).",
+        "organizations": []
+    },
+    "Social Worker": {
+        "id": "Social Worker",
+        "title": "Social Worker",
+        "description": "Social Workers support individuals, families, and communities by helping them cope with various life challenges. They work in schools, hospitals, mental health clinics, and government agencies to promote well-being and social functioning.",
+        "skills": [
+            "Strong communication and interpersonal skills",
+            "Empathy and emotional intelligence",
+            "Problem-solving and critical thinking abilities",
+            "Organizational and case management skills",
+            "Understanding of human behavior and social environments",
+            "Knowledge of relevant laws and ethical practices"
+        ],
+        "education": "A Bachelor of Social Work (BSW) is the minimum requirement. A Master of Social Work (MSW) is preferred for advanced roles. Additional certification or licensure may be required depending on the country or state.",
+        "duties": [
+            "Assessing clients' needs and developing intervention plans",
+            "Connecting clients with appropriate resources and services",
+            "Advocating for client rights and social justice",
+            "Providing counseling and crisis intervention",
+            "Maintaining case records and documentation",
+            "Collaborating with other professionals and agencies"
+        ],
+        "salary": "\u20b92,50,000 to \u20b96,00,000 per year (India, varies with specialization and experience).",
+        "organizations": []
+    },
+    "UX-UI-designer": {
+        "id": "UX-UI-designer",
+        "title": "UX/UI Designer",
+        "description": "A UX/UI Designer is responsible for creating user-friendly and aesthetically pleasing digital interfaces. They focus on enhancing the user experience through intuitive design, layout, and functionality in web and mobile applications.",
+        "skills": [
+            "Proficiency in design tools like Figma, Adobe XD, Sketch, or InVision",
+            "Understanding of user-centered design principles",
+            "Wireframing and prototyping",
+            "Strong visual design and typography skills",
+            "Basic knowledge of HTML, CSS, and JavaScript is a plus",
+            "Empathy for users and attention to detail"
+        ],
+        "education": "A bachelor's degree in Design, Human-Computer Interaction (HCI), Computer Science, or a related field is typically required. Design certifications and portfolios demonstrating UX/UI skills are highly valued.",
+        "duties": [
+            "Conducting user research and analyzing user feedback",
+            "Creating wireframes, mockups, and prototypes",
+            "Collaborating with developers and stakeholders",
+            "Improving design based on user interaction data",
+            "Maintaining consistency in UI design across platforms",
+            "Staying up to date with industry trends and best practices"
+        ],
+        "salary": "\u20b95,00,000 to \u20b912,00,000 per year (India, depending on experience and company size).",
+        "organizations": []
+    },
+    "marine-biologist": {
+        "id": "marine-biologist",
+        "title": "Marine Biologist",
+        "description": "A Marine Biologist studies marine organisms and their interactions with the environment. This includes research on ocean ecosystems,\n          marine species, and the impacts of human activity on marine life.",
+        "skills": [
+            "Strong background in biology and ecology",
+            "Fieldwork and laboratory research skills",
+            "Data analysis and statistical software proficiency",
+            "Attention to detail and critical thinking",
+            "Excellent communication and reporting abilities",
+            "Swimming and diving skills for underwater research"
+        ],
+        "education": "A bachelor's degree in Marine Biology, Zoology, Environmental Science, or a related field is required. Advanced research roles often\n          require a master\u2019s or Ph.D.",
+        "duties": [
+            "Conducting research on marine life and ecosystems",
+            "Monitoring environmental changes and ocean health",
+            "Collecting and analyzing biological samples",
+            "Writing scientific reports and publishing research",
+            "Collaborating with conservation organizations",
+            "Educating the public about marine conservation"
+        ],
+        "salary": "\u20b94,00,000 to \u20b912,00,000 per year (India, based on experience and research funding).",
+        "organizations": []
+    },
+    "Energy Policy Analyst": {
+        "id": "Energy Policy Analyst",
+        "title": "Energy Policy Analyst",
+        "description": "An Energy Policy Analyst researches, analyzes, and develops policies related to energy production, distribution, and consumption. They work to promote sustainable energy practices and ensure that energy regulations align with environmental and economic goals.",
+        "skills": [
+            "Strong research and analytical skills",
+            "Understanding of energy markets and environmental regulations",
+            "Policy development and evaluation expertise",
+            "Knowledge of renewable energy technologies and trends",
+            "Excellent written and verbal communication",
+            "Critical thinking and data interpretation skills"
+        ],
+        "education": "A bachelor\u2019s or master\u2019s degree in Energy Policy, Environmental Science, Public Policy, Economics, or a related field is required. Advanced knowledge in climate change and sustainability is an advantage.",
+        "duties": [
+            "Analyzing current energy policies and their economic/environmental impacts",
+            "Recommending improvements to existing policies and drafting new proposals",
+            "Collaborating with government agencies and private stakeholders",
+            "Monitoring international energy trends and standards",
+            "Presenting findings to policymakers and the public",
+            "Conducting impact assessments for new energy initiatives"
+        ],
+        "salary": "\u20b96,00,000 to \u20b915,00,000 per year (India, varies by sector and experience).",
+        "organizations": []
+    },
+    "supply-chain-manager": {
+        "id": "supply-chain-manager",
+        "title": "Supply Chain Manager",
+        "description": "A Supply Chain Manager oversees the entire supply chain operations, including procurement, logistics, and inventory management. Their goal is to streamline operations, reduce costs, and ensure timely delivery of products and services.",
+        "skills": [
+            "Strategic planning and problem-solving",
+            "Inventory and logistics management",
+            "Strong analytical and organizational skills",
+            "Proficiency in supply chain software (e.g., SAP, Oracle)",
+            "Excellent communication and negotiation abilities",
+            "Leadership and team coordination"
+        ],
+        "education": "A bachelor's degree in Supply Chain Management, Logistics, Business Administration, or a related field is typically required. A master's degree or certifications like CSCP or CPIM are advantageous.",
+        "duties": [
+            "Planning and overseeing supply chain strategy",
+            "Managing procurement and sourcing activities",
+            "Supervising warehousing and inventory management",
+            "Coordinating logistics and transportation",
+            "Analyzing supply chain data and performance",
+            "Collaborating with suppliers and internal departments"
+        ],
+        "salary": "\u20b96,00,000 to \u20b915,00,000 per year (India, depending on experience and industry).",
+        "organizations": []
+    },
+    "Automobile Technician": {
+        "id": "Automobile Technician",
+        "title": "Automobile Technician",
+        "description": "An Automobile Technician inspects, maintains, and repairs vehicles. They diagnose issues with cars and trucks using diagnostic tools, and ensure vehicles are operating efficiently and safely.",
+        "skills": [
+            "Mechanical and technical skills",
+            "Knowledge of vehicle systems and electronics",
+            "Diagnostic and problem-solving abilities",
+            "Attention to detail",
+            "Good communication skills",
+            "Customer service orientation"
+        ],
+        "education": "A diploma or certification in Automobile Engineering or Motor Vehicle Maintenance is typically required. Apprenticeships and hands-on training are also essential.",
+        "duties": [
+            "Diagnosing mechanical and electrical issues in vehicles",
+            "Conducting routine maintenance like oil changes and tire rotations",
+            "Repairing or replacing faulty parts",
+            "Using diagnostic tools to identify issues",
+            "Maintaining repair records and logs",
+            "Advising customers on service and repair needs"
+        ],
+        "salary": "\u20b92,00,000 to \u20b96,00,000 per year (India, depending on skills and experience).",
+        "organizations": [
+            "Maruti Suzuki",
+            "Tata Motors",
+            "Hyundai",
+            "Mahindra & Mahindra",
+            "Authorized car service centers and workshops",
+            "Independent garages and auto repair shops"
+        ]
+    },
+    "Interior Designer": {
+        "id": "Interior Designer",
+        "title": "Interior Designer",
+        "description": "An Interior Designer plans, designs, and furnishes interior spaces in residential, commercial, or industrial buildings. They aim to create functional, safe, and aesthetically pleasing environments tailored to the client's needs and style.",
+        "skills": [
+            "Creativity and artistic ability",
+            "Strong knowledge of design trends and color theory",
+            "Proficiency in CAD software and design tools",
+            "Excellent communication and presentation skills",
+            "Attention to detail and problem-solving skills",
+            "Project management and budgeting abilities"
+        ],
+        "education": "A bachelor's degree in Interior Design, Architecture, or a related field is typically required. Practical training or an internship is often necessary, and certification by a recognized design body can enhance career prospects.",
+        "duties": [
+            "Consulting with clients to determine requirements and preferences",
+            "Creating detailed plans, sketches, and 3D models",
+            "Selecting materials, furnishings, and color schemes",
+            "Coordinating with architects, contractors, and suppliers",
+            "Ensuring designs comply with safety and building codes",
+            "Managing project timelines and budgets"
+        ],
+        "salary": "\u20b93,00,000 to \u20b99,00,000 per year (India, varies by experience and location).",
+        "organizations": []
+    },
+    "Sports Coach": {
+        "id": "Sports Coach",
+        "title": "Sports Coach",
+        "description": "A Sports Coach trains and guides individuals or teams to improve their athletic performance. They develop training programs, provide strategic advice, and motivate athletes to reach their full potential.",
+        "skills": [
+            "Knowledge of the specific sport and its rules",
+            "Strong communication and leadership skills",
+            "Ability to develop training plans",
+            "Motivational and mentoring abilities",
+            "Analytical skills to assess performance",
+            "Patience and adaptability"
+        ],
+        "education": "A degree in Physical Education, Sports Science, or a related field is advantageous. Certifications from recognized sports associations or coaching bodies are often required for professional coaching.",
+        "duties": [
+            "Creating and conducting training sessions",
+            "Analyzing athletes\u2019 strengths and weaknesses",
+            "Providing tactical and strategic advice",
+            "Monitoring progress and making adjustments",
+            "Inspiring athletes to perform at their best",
+            "Ensuring athlete safety and fitness"
+        ],
+        "salary": "\u20b92,50,000 to \u20b910,00,000 per year (India, depending on sport and level).",
+        "organizations": [
+            "Sports academies",
+            "Schools and colleges",
+            "Professional sports teams",
+            "Fitness and training centers",
+            "Government sports initiatives"
+        ]
+    },
+    "Pharmaceutical Sales Representative": {
+        "id": "Pharmaceutical Sales Representative",
+        "title": "Pharmaceutical Sales Representative",
+        "description": "A Pharmaceutical Sales Representative promotes and sells their company's pharmaceutical products to healthcare professionals. They build relationships with doctors, pharmacists, and medical staff to increase product awareness and drive sales.",
+        "skills": [
+            "Strong interpersonal and communication skills",
+            "Sales and negotiation abilities",
+            "Knowledge of medical and pharmaceutical products",
+            "Time management and organizational skills",
+            "Presentation and public speaking abilities",
+            "Customer-focused mindset"
+        ],
+        "education": "A bachelor's degree in pharmacy, life sciences, business, or a related field is typically required. Additional training in pharmaceutical regulations and product knowledge is often provided by the employer.",
+        "duties": [
+            "Visiting healthcare professionals to promote pharmaceutical products",
+            "Providing product information and scientific data",
+            "Achieving sales targets and expanding client base",
+            "Attending medical conferences and industry events",
+            "Maintaining records of sales and client interactions",
+            "Keeping up to date with new products and market trends"
+        ],
+        "salary": "\u20b93,00,000 to \u20b98,00,000 per year (India, varies with performance and incentives).",
+        "organizations": [
+            "Sun Pharma",
+            "Dr. Reddy's Laboratories",
+            "Cipla",
+            "Glenmark Pharmaceuticals",
+            "Abbott India",
+            "Pfizer"
+        ]
+    },
+    "Digital Marketing Manager": {
+        "id": "Digital Marketing Manager",
+        "title": "Digital Marketing Manager",
+        "description": "A Digital Marketing Manager is responsible for developing, implementing, and managing marketing campaigns that promote a company's brand, products, and services. They play a major role in enhancing brand awareness and driving website traffic.",
+        "skills": [
+            "Strong knowledge of SEO, SEM, and web analytics tools",
+            "Expertise in content marketing and social media strategy",
+            "Google Ads and email marketing proficiency",
+            "Analytical and data-driven decision-making skills",
+            "Creativity and problem-solving ability",
+            "Leadership and project management capabilities"
+        ],
+        "education": "A bachelor's degree in Marketing, Communications, Business, or a related field is generally required. Certifications in digital marketing platforms (e.g., Google, HubSpot) are highly desirable.",
+        "duties": [
+            "Developing and executing digital marketing strategies",
+            "Overseeing social media and content marketing efforts",
+            "Managing online advertising campaigns",
+            "Monitoring and analyzing marketing analytics and KPIs",
+            "Collaborating with content creators, designers, and other teams",
+            "Staying up-to-date with digital marketing trends and tools"
+        ],
+        "salary": "\u20b96,00,000 to \u20b915,00,000 per year (India, depending on experience and industry).",
+        "organizations": [
+            "Google India",
+            "Flipkart",
+            "Amazon",
+            "Zoho",
+            "Infosys",
+            "Digital marketing agencies and e-commerce firms"
+        ]
+    },
+    "digital-marketing-specialist": {
+        "id": "digital-marketing-specialist",
+        "title": "Digital Marketing Specialist",
+        "description": "A Digital Marketing Specialist develops, implements, and manages marketing campaigns that promote a company and its products or services online. They play a major role in enhancing brand awareness within the digital space.",
+        "skills": [
+            "Search Engine Optimization (SEO) and Search Engine Marketing (SEM)",
+            "Content creation and strategy",
+            "Social media management and advertising",
+            "Email marketing and automation tools",
+            "Data analysis and performance tracking",
+            "Familiarity with tools like Google Analytics, AdWords, and CRM systems"
+        ],
+        "education": "A bachelor's degree in Marketing, Communications, Business, or a related field is commonly required. Certifications in digital marketing (e.g., Google, HubSpot, Meta) are highly valued.",
+        "duties": [
+            "Developing and executing digital marketing strategies",
+            "Managing SEO/SEM and social media campaigns",
+            "Creating engaging content for blogs, websites, and social platforms",
+            "Analyzing campaign performance and optimizing for ROI",
+            "Coordinating with designers, developers, and marketing teams",
+            "Staying up-to-date with digital marketing trends and tools"
+        ],
+        "salary": "\u20b94,00,000 to \u20b910,00,000 per year (India, based on experience and organization).",
+        "organizations": []
+    },
+    "Genetic Counselor": {
+        "id": "Genetic Counselor",
+        "title": "Genetic Counselor",
+        "description": "A Genetic Counselor provides information and support to individuals or families who have genetic disorders or may be at risk. They assess genetic data and help patients understand testing options, results, and potential implications.",
+        "skills": [
+            "Knowledge of genetics and genomics",
+            "Strong communication and counseling skills",
+            "Empathy and emotional intelligence",
+            "Critical thinking and problem-solving abilities",
+            "Attention to detail and analytical skills",
+            "Confidentiality and ethical sensitivity"
+        ],
+        "education": "A master's degree in genetic counseling or medical genetics is typically required. Coursework includes molecular genetics, ethics, counseling techniques, and prenatal diagnosis.",
+        "duties": [
+            "Evaluating family medical histories and genetic data",
+            "Explaining genetic testing options and implications",
+            "Supporting patients in making informed decisions",
+            "Collaborating with healthcare professionals",
+            "Keeping up with developments in genetics research",
+            "Maintaining patient records and ensuring confidentiality"
+        ],
+        "salary": "\u20b94,00,000 to \u20b910,00,000 per year (India, depending on experience and institution).",
+        "organizations": [
+            "Apollo Hospitals",
+            "MedGenome",
+            "SRL Diagnostics",
+            "Mapmygenome",
+            "Government and private healthcare institutions",
+            "Genetic research labs and academic institutions"
+        ]
+    },
+    "Librarian": {
+        "id": "Librarian",
+        "title": "Librarian",
+        "description": "A Librarian manages the collection, organization, and accessibility of information resources in libraries. They assist users in finding information, manage library databases, and promote literacy and learning through various programs.",
+        "skills": [
+            "Strong organizational and cataloging skills",
+            "Excellent communication and interpersonal abilities",
+            "Research and information retrieval expertise",
+            "Knowledge of digital library systems and databases",
+            "Customer service orientation",
+            "Attention to detail"
+        ],
+        "education": "A bachelor's degree in Library Science or Information Science is typically required. A master's degree in Library and Information Science (MLIS) is preferred for advanced roles.",
+        "duties": [
+            "Organizing and managing library materials and databases",
+            "Helping patrons locate and use information resources",
+            "Maintaining digital records and cataloging systems",
+            "Conducting library programs and literacy initiatives",
+            "Acquiring new resources and managing library budgets",
+            "Staying updated with library technology and practices"
+        ],
+        "salary": "\u20b92,50,000 to \u20b96,00,000 per year (India, varies by institution and role).",
+        "organizations": [
+            "National Library of India",
+            "School and college libraries",
+            "University and research institutions",
+            "Government libraries and archives",
+            "Private educational institutions",
+            "Digital library service providers"
+        ]
+    },
+    "Logistics Coordinator": {
+        "id": "Logistics Coordinator",
+        "title": "Logistics Coordinator",
+        "description": "A Logistics Coordinator oversees the supply chain operations of a company. They manage the flow of goods, ensure timely delivery, and coordinate between suppliers, transportation companies, and customers.",
+        "skills": [
+            "Strong organizational and planning abilities",
+            "Excellent communication and negotiation skills",
+            "Knowledge of logistics and supply chain management",
+            "Problem-solving and analytical thinking",
+            "Proficiency in logistics software and Microsoft Excel",
+            "Attention to detail and multitasking capability"
+        ],
+        "education": "A bachelor's degree in Logistics, Supply Chain Management, Business Administration, or a related field is typically required. Internships or experience in logistics roles are advantageous.",
+        "duties": [
+            "Coordinating and monitoring supply chain operations",
+            "Liaising with suppliers, manufacturers, retailers, and customers",
+            "Tracking shipments and ensuring timely delivery",
+            "Managing inventory and maintaining accurate records",
+            "Addressing logistical problems and implementing solutions",
+            "Preparing reports and documentation related to logistics"
+        ],
+        "salary": "\u20b93,00,000 to \u20b97,00,000 per year (India, varies with experience and company size).",
+        "organizations": []
+    }
+}
