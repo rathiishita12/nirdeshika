@@ -11,3 +11,7 @@ prediction/venv/
 
 # Build folders
 frontend/dist/
+
+convert_html_to_jsx.py
+scrape_roles.py
+update_navs.py
