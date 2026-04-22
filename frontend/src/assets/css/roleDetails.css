@@ -1,0 +1,33 @@
+/* Know More — scoped; nav comes from styles.css */
+
+.page-roleDetails {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #7895ae;
+    color: #f0f0f0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.page-roleDetails .header-section {
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.page-roleDetails #navigation {
+    font-size: 15px;
+}
+
+.page-roleDetails #navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Spacing for Bootstrap cards in this page only */
+.page-roleDetails .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

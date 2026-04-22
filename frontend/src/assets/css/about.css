@@ -1,0 +1,136 @@
+/* About page — scoped under .page-about so it never overrides Bootstrap .container or other routes */
+
+.page-about {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #7895ae;
+  color: #f0f0f0;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.page-about .about-page {
+  max-width: 1200px;
+  margin: 120px auto 50px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.page-about h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #ffffff;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.page-about .slide-in {
+  animation: slide-in 1s ease forwards;
+}
+
+.page-about .pop {
+  animation: pop 1s ease forwards;
+}
+
+.page-about .image-text-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.page-about .image-text-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-about .image-text-section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.page-about .image-text-section img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.page-about .text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.page-about h2 {
+  color: #4fc3f7;
+  margin-bottom: 1rem;
+}
+
+.page-about ul {
+  padding-left: 1.2rem;
+}
+
+.page-about ul li {
+  margin-bottom: 0.5rem;
+}
+
+.page-about .team-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 30px 20px;
+}
+
+.page-about .team-member {
+  text-align: center;
+}
+
+.page-about .team-member img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
+}
+
+.page-about .member-name {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f0f0f0;
+}

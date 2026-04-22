@@ -1,0 +1,89 @@
+.page-assessment {
+  font-family: Arial, sans-serif;
+  background-color: #7895ae;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-assessment .container {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #95b5d1;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.page-assessment h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page-assessment label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.page-assessment input,
+.page-assessment select,
+.page-assessment textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #7895ae;
+}
+
+.page-assessment .btn-submit {
+  margin: 30px auto 10px auto;
+  padding: 12px 20px;
+  background-color: #5d809e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  width: 60%;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.page-assessment .btn-submit:hover {
+  background-color: #0288d1;
+  color: white;
+}
+
+/* Match react-select styles with other inputs */
+.page-assessment .select__control {
+  background-color: #7895ae;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.page-assessment .select__menu {
+  background-color: #7895ae;
+}
+
+.page-assessment .select__option {
+  color: #000;
+}
+
+.page-assessment .select__multi-value {
+  background-color: #95b5d1;
+}
+
+.page-assessment .select__multi-value__label {
+  color: #000;
+}
+
+.page-assessment .select__input-container,
+.page-assessment .select__placeholder,
+.page-assessment .select__single-value {
+  color: #000 !important;
+}

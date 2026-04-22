@@ -1,0 +1,166 @@
+/* Scoped to login route only — avoids clashing with Bootstrap .container in the shared bundle */
+
+.page-login {
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.page-login *,
+.page-login *::before,
+.page-login *::after {
+  box-sizing: border-box;
+}
+
+.page-login .auth-split {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.page-login .left-panel {
+  background: linear-gradient(to bottom right, #e2ef6b, #00e3ff);
+  color: white;
+  flex: 1;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.page-login .left-panel h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.page-login .left-panel p {
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 400px;
+}
+
+.page-login .right-panel {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.page-login .login-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.page-login .login-card h2 {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+.page-login .login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.page-login .login-card button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.page-login #loginBtn {
+  background: linear-gradient(to bottom right, #e2ef6b, #00e3ff);
+  color: white;
+}
+
+.page-login #loginBtn:hover {
+  background: linear-gradient(to bottom right, #e2ef6b, #00e3ff);
+}
+
+.page-login .google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.page-login .google-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.page-login .divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.page-login .divider::before,
+.page-login .divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+}
+
+.page-login .divider span {
+  margin: 0 10px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.page-login .signup-section {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page-login .signup-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.page-login .signup-btn-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #00e3ff;
+  border-radius: 10px;
+  color: #00e3ff;
+  transition: all 0.3s ease;
+}
+
+.page-login .signup-btn-link:hover {
+  background-color: #00e3ff;
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .page-login .left-panel {
+    display: flex;
+  }
+}

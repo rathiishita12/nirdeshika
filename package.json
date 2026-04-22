@@ -1,22 +1,16 @@
 {
-  "dependencies": {
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.3",
-    "mysql2": "^3.19.0",
-    "nodemailer": "^6.10.0"
-  },
-  "name": "career-guidance",
+  "name": "nirdeshika",
   "version": "1.0.0",
-  "main": "main.js",
+  "description": "AI-Powered Personalized Career Guidance Platform",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && node server.js",
+    "dev:prediction": "cd prediction && python3 app.py",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "firebase": "^12.11.0"
+  }
 }
