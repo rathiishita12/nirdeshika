@@ -35,6 +35,25 @@ db.connect(err => {
     return;
   }
   console.log("MySQL Connected");
+
+  const createUsersTable = `
+    CREATE TABLE IF NOT EXISTS users (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      username VARCHAR(100) NOT NULL,
+      email VARCHAR(150) UNIQUE NOT NULL,
+      password VARCHAR(255) NOT NULL,
+      assessment_count INT DEFAULT 0,
+      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )
+  `;
+
+  db.query(createUsersTable, (err, result) => {
+    if (err) {
+      console.error("Warning: Could not verify/create users table:", err.message);
+    } else {
+      console.log("Database tables verified/created successfully.");
+    }
+  });
 });
 
 const otpStore = {}; // Should use DB in production
