@@ -12,12 +12,22 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const db = mysql.createConnection({
+const dbConfig = {
   host: process.env.DB_HOST || "localhost",
+  port: process.env.DB_PORT || 3306,
   user: process.env.DB_USER || "root",
   password: process.env.DB_PASSWORD || "",
   database: process.env.DB_NAME || "career_portal"
-});
+};
+
+// Cloud databases like Aiven require SSL
+if (process.env.DB_HOST && process.env.DB_HOST !== "localhost") {
+  dbConfig.ssl = {
+    rejectUnauthorized: false // Simplest way to connect to managed clouds without manual CA certificates
+  };
+}
+
+const db = mysql.createConnection(dbConfig);
 
 db.connect(err => {
   if (err) {
