@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import '../assets/css/styles.css';
@@ -55,11 +56,11 @@ const Home = () => {
         <div className="section__container header__container">
           <h1>Empowering Futures, One Career at a Time</h1>
           <h4>AI-Powered Personalized Career Guidance for Students & Professionals</h4>
-          <a href="/assessment">
+          <Link to="/assessment">
             <button className="btn">
               Get Started <i className="ri-arrow-right-line"></i>
             </button>
-          </a>
+          </Link>
         </div>
       </header>
 
