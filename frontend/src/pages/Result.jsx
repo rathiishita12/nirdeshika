@@ -49,7 +49,7 @@ const Result = () => {
                 <Navbar />
                 <div>
                     <div className="container">
-                        <div className="shadow-lg border-0 rounded-4 p-5">
+                        <div className="shadow-lg border-0 rounded-4 p-3 p-sm-4 p-md-5">
 
                             <div className="text-center mb-5">
                                 <i className="ri-award-fill text-warning mb-3 d-inline-block" style={{ fontSize: '4rem', filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.1))' }}></i>
@@ -117,7 +117,7 @@ const Result = () => {
                                 )}
                             </div>
 
-                            <div className="d-flex justify-content-between mt-5 pt-4 border-top">
+                            <div className="result-actions mt-5 pt-4 border-top">
                                 <button onClick={() => navigate('/assessment')} className="btn btn-light border px-4 py-2 fs-5 text-secondary fw-medium">
                                     <i className="ri-refresh-line me-2"></i> Retake Assessment
                                 </button>

@@ -87,3 +87,18 @@
 .page-assessment .select__single-value {
   color: #000 !important;
 }
+
+@media (max-width: 820px) {
+  .page-assessment .container {
+    margin: 20px 15px;
+    width: auto;
+    padding: 15px;
+  }
+  .page-assessment .btn-submit {
+    width: 100%;
+  }
+  .page-assessment h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+}
