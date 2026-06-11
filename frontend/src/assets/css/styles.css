@@ -126,12 +126,29 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+  position: relative;
 }
 
 .nav__logo a {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--white);
+}
+
+.nav__toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--white);
+  font-size: 2rem;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.nav__toggle:hover {
+  color: var(--secondary-color);
 }
 
 .nav__links {
@@ -534,8 +551,65 @@ nav {
 }
 
 @media (width < 900px) {
+  .nav__toggle {
+    display: block;
+    z-index: 1001;
+  }
+
+  .nav__links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(1, 5, 11, 0.95);
+    padding: 2rem 1rem;
+    border-bottom: 1px solid var(--extra-light);
+    gap: 1.5rem;
+    z-index: 1000;
+    align-items: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav__links.nav__links--open {
+    display: flex;
+  }
+
+  .nav__links.nav__links--open .link {
+    display: block !important;
+  }
+
   .link:not(.search) {
     display: none;
+  }
+
+  .nav__links .dropdown-menu {
+    position: static;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    box-shadow: none;
+    min-width: 200px;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
+  .nav__links .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .nav__links .dropdown-menu li a {
+    color: var(--white);
+    padding: 0.5rem 1rem;
+  }
+
+  .header__container h1 {
+    font-size: 2.5rem;
+  }
+
+  .section__header {
+    font-size: 2.25rem;
   }
 
   .about__container {
@@ -565,7 +639,7 @@ nav {
   }
 
   .hero__container p {
-    font-size: 10rem;
+    font-size: 6rem;
   }
 
   .gallery__grid {
@@ -583,12 +657,30 @@ nav {
 }
 
 @media (width < 600px) {
+  .nav__logo img {
+    max-width: 180px;
+    height: auto !important;
+  }
+
   .header__container {
     text-align: center;
+    padding: 8rem 1rem 4rem 1rem;
+  }
+
+  .header__container h1 {
+    font-size: 2rem;
   }
 
   .header__container h4 {
     margin-left: 0;
+  }
+
+  .section__container {
+    padding: 3rem 1rem;
+  }
+
+  .section__header {
+    font-size: 1.75rem;
   }
 
   .about__card {
@@ -612,7 +704,7 @@ nav {
   }
 
   .hero__container p {
-    font-size: 6rem;
+    font-size: 3rem;
   }
 
   .gallery__grid {

@@ -55,7 +55,7 @@ const Home = () => {
         <div className="section__container header__container">
           <h1>Empowering Futures, One Career at a Time</h1>
           <h4>AI-Powered Personalized Career Guidance for Students & Professionals</h4>
-          <a href={PREDICTION_URL}>
+          <a href="/assessment">
             <button className="btn">
               Get Started <i className="ri-arrow-right-line"></i>
             </button>
